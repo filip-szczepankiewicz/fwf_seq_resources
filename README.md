@@ -13,12 +13,6 @@ Below is a collection of related resources that may help in the implementation, 
 
 This GitHub repository mainly contains MATLAB software for analysis of MD-dMRI data, and also some auxiliary routines for setup of acquisition protocols, motion correction, and image visualization.
 
-Three families of methods are currently implemented within the framework of MD-dMRI:
-
-* Diffusion tensor distributions
-* Diffusional exchange
-* Diffusion and incoherent flow
-
 [Reference: M. Nilsson, F. Szczepankiewicz, B. Lampinen, A. Ahlgren, J. de Almeida Martins, S. Lasic, C-F. Westin, D. Topgaard. An open-source framework for analysis of multidimensional diffusion MRI data implemented in MATLAB. Proc. Intl. Soc. Mag. Reson. Med. 26 (2018), Paris, France.](https://www.researchgate.net/profile/Filip_Szczepankiewicz/publication/325595277_An_open-source_framework_for_analysis_of_multidimensional_diffusion_MRI_data_implemented_in_MATLAB/links/5b179cedaca272d24cc43a0e/An-open-source-framework-for-analysis-of-multidimensional-diffusion-MRI-data-implemented-in-MATLAB.pdf)
 <br/><br/>
 
@@ -27,8 +21,6 @@ Three families of methods are currently implemented within the framework of MD-d
 [Numerical Optimization of gradient waveforms (NOW)](https://github.com/jsjol/NOW) is MATLAB package for flexible generation of waveforms that enable q-space trajectory imaging (QTI) for tensor-valued diffusion encoding.
 
 [Reference: Sjölund, J., Szczepankiewicz, F., Nilsson, M., Topgaard, D., Westin, C. F., & Knutsson, H. (2015). Constrained optimization of gradient waveforms for generalized diffusion encoding. Journal of Magnetic Resonance, 261, 157-168.](https://www.sciencedirect.com/science/article/pii/S1090780715002451)
-
-
 <br/><br/>
 
 ## Concomitant gradient analysis tools (CFA)
@@ -56,7 +48,6 @@ Three families of methods are currently implemented within the framework of MD-d
 [![Schematic example of software function.](https://github.com/filip-szczepankiewicz/fwf_header_tools/blob/master/fwf_header_example_fig.jpg)](https://github.com/filip-szczepankiewicz/fwf_header_tools)
 
 [Reference: F Szczepankiewicz, S Hoge, C-F Westin. Linear, planar and spherical tensor-valued diffusion MRI data by free waveform encoding in healthy brain, water, oil and liquid crystals. Data in Brief (2019)](nolinkyet)
-
 <br/><br/>
 
 ## Examples of brain protocols and performance at multiple systems
@@ -73,7 +64,7 @@ Under construction...
 
 ## Seminar on the benefit of using tensor-valued diffusion encoding (YouTube) 
 
-["Fat" B-tensors and Diffusion Tensor Distributions](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s) - was presented at a conference at Cardiff University entitled ‘A spin thro’ the history of restricted diffusion MR’ on January 31st and February 1st 2017. The conference was hosted by the Cardiff University Brain Research Imaging Centre and was sponsored by Siemens Healthineers and the EPSRC.
+The talk ["'Fat' B-tensors and Diffusion Tensor Distributions"](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s) was presented at a conference at Cardiff University entitled ‘A spin thro’ the history of restricted diffusion MR’ on January 31st and February 1st 2017. The conference was hosted by the Cardiff University Brain Research Imaging Centre and was sponsored by Siemens Healthineers and the EPSRC.
 
 [![](https://i.ytimg.com/vi/o4LYijV90Tg/maxresdefault.jpg)](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s)
 <br/><br/>
