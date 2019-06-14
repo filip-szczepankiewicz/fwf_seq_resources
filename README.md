@@ -26,7 +26,7 @@ https://github.com/markus-nilsson/md-dmri/tree/master/tools/cfa
 
 ## Peripheral nerve stimulation prediction tools (SAFE model)
 
-[![](https://github.com/filip-szczepankiewicz/safe_pns_prediction/blob/master/safe_example_figure.jpg)](https://github.com/filip-szczepankiewicz/safe_pns_prediction)
+[![](https://github.com/filip-szczepankiewicz/safe_pns_prediction/blob/master/safe_example_figure.jpg =100x20)](https://github.com/filip-szczepankiewicz/safe_pns_prediction)
 
 https://github.com/filip-szczepankiewicz/safe_pns_prediction  
 
