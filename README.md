@@ -6,10 +6,6 @@ This repository contains manuals and standard configurations for the FWF sequenc
 
 Below is a collection of related resources that may help in the implementation, design and analysis of experiments related to the FWF sequence.
 
-### YouTube video on the benefit of using tensor-valued diffusion encoding (fat b-tensors)  
-
-https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s
-
 
 ### Multidimensional analysis framework (MD-dMRI)
 
@@ -35,8 +31,7 @@ https://github.com/filip-szczepankiewicz/safe_pns_prediction
 
 https://github.com/filip-szczepankiewicz/fwf_header_tools
 
-  
-![Schematic example of software function.](https://github.com/filip-szczepankiewicz/fwf_header_tools/blob/master/fwf_header_example_fig.jpg)
+[![Schematic example of software function.](https://github.com/filip-szczepankiewicz/fwf_header_tools/blob/master/fwf_header_example_fig.jpg)](https://github.com/filip-szczepankiewicz/fwf_header_tools)
 
 
 
@@ -46,3 +41,10 @@ https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019
 
 
 ### Open source tensor-valued diffusion encoded data (coming soon) 
+
+
+### Seminar (YouTube) on the benefit of using tensor-valued diffusion encoding (fat b-tensors)  
+
+[![](https://i.ytimg.com/vi/o4LYijV90Tg/maxresdefault.jpg)](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s)
+
+https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s
