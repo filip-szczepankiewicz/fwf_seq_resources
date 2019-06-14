@@ -47,7 +47,7 @@ https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019
 ## Open source tensor-valued diffusion encoded data (coming soon) 
 Under construction...
 
-
+<br/><br/><br/>
 
 
 ## Seminar (YouTube) on the benefit of using tensor-valued diffusion encoding (fat b-tensors)  
