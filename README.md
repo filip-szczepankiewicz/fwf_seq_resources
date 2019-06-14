@@ -3,9 +3,11 @@
 This repository contains manuals and standard configurations for the FWF sequence developed at Lund University and Harvard Medical School by Filip Szczepankiewicz, Carl-Fredrik Westin and Markus Nilsson.
 
 ## Related resources
+
 Below is a collection of related resources that may help in the implementation, design and analysis of experiments related to the FWF sequence.
 
-### [YouTube video on the benefit of using tensor-valued diffusion encoding (fat b-tensors)](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s)  
+### YouTube video on the benefit of using tensor-valued diffusion encoding (fat b-tensors)  
+https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s
 
 
 ### [Multidimensional analysis framework (MD-dMRI)](https://github.com/markus-nilsson/md-dmri)  
