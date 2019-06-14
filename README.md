@@ -26,7 +26,7 @@ https://github.com/markus-nilsson/md-dmri/tree/master/tools/cfa
 
 ## Peripheral nerve stimulation prediction tools (SAFE model)
 
-[![](https://github.com/filip-szczepankiewicz/safe_pns_prediction/blob/master/safe_example_figure.jpg){:height="36px" width="36px"}](https://github.com/filip-szczepankiewicz/safe_pns_prediction)
+[![](https://github.com/filip-szczepankiewicz/safe_pns_prediction/blob/master/safe_example_figure.jpg)](https://github.com/filip-szczepankiewicz/safe_pns_prediction)
 
 https://github.com/filip-szczepankiewicz/safe_pns_prediction  
 
@@ -46,6 +46,8 @@ https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019
 
 ## Open source tensor-valued diffusion encoded data (coming soon) 
 Under construction...
+
+
 
 
 ## Seminar (YouTube) on the benefit of using tensor-valued diffusion encoding (fat b-tensors)  
