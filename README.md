@@ -66,7 +66,7 @@ Under construction...
 
 The talk ["'Fat' B-tensors and Diffusion Tensor Distributions"](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s) was presented at a conference at Cardiff University entitled ‘A spin thro’ the history of restricted diffusion MR’ on January 31st and February 1st 2017. The conference was hosted by the Cardiff University Brain Research Imaging Centre and was sponsored by Siemens Healthineers and the EPSRC.
 
-[![](https://i.ytimg.com/vi/o4LYijV90Tg/maxresdefault.jpg)](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s)
+[![](/figures/fat_b_seminar_figure.jpg)](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s)
 
 [Reference: F. Szczepankiewicz, D. van Westen, E. Englund, C-F. Westin, F. Ståhlberg, J. Lätt, P.C. Sundgren, M. Nilsson. The link between diffusion MRI and tumor heterogeneity: Mapping cell eccentricity and density by diffusional variance decomposition (DIVIDE). NeuroImage 142, p. 522-532, 2016](https://www.sciencedirect.com/science/article/pii/S1053811916303457)
 <br/><br/>
