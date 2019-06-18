@@ -20,6 +20,8 @@ This GitHub repository mainly contains MATLAB software for analysis of MD-dMRI d
 
 [Numerical Optimization of gradient waveforms (NOW)](https://github.com/jsjol/NOW) is MATLAB package for flexible generation of waveforms that enable q-space trajectory imaging (QTI) for tensor-valued diffusion encoding.
 
+[![](/Images/now_figure.JPG)](https://github.com/jsjol/NOW)
+
 [Reference: Sjölund, J., Szczepankiewicz, F., Nilsson, M., Topgaard, D., Westin, C. F., & Knutsson, H. (2015). Constrained optimization of gradient waveforms for generalized diffusion encoding. Journal of Magnetic Resonance, 261, 157-168.](https://www.sciencedirect.com/science/article/pii/S1090780715002451)
 <br/><br/>
 
