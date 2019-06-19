@@ -7,7 +7,7 @@ This repository contains manuals and standard configurations for the FWF sequenc
 Below is a collection of related resources that may help in the implementation, design and analysis of experiments related to the FWF sequence.
 
 
-[**Multidimensional analysis framework (MD-dMRI)**](https://github.com/markus-nilsson/md-dmri)
+[**--Multidimensional analysis framework (MD-dMRI)**](https://github.com/markus-nilsson/md-dmri)
 
 Multidimensional diffusion MRI (MD-dMRI) framework is a family of conceptually related methods relying on advanced gradient modulation schemes and data processing approaches to simultaneously quantify several microstructural and dynamical properties of tissue by separating their effects on the detected MRI signal into multiple acquisition and analysis dimensions.
 
