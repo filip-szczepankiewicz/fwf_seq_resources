@@ -10,6 +10,7 @@ The repository is a Work in Progress, but is intended to contain:
 * A compilation of **Related resources** to simplify the search for useful tools
 
 Please contact fszczepankiewicz@bwh.harvard.edu with suggestions for what should be included.
+<br/>
 
 ## Related resources
 
