@@ -42,7 +42,7 @@ The free waveform header tools are used to encode and decode information that is
 
 [![Schematic example of software function.](https://github.com/filip-szczepankiewicz/fwf_header_tools/blob/master/fwf_header_example_fig.jpg)](https://github.com/filip-szczepankiewicz/fwf_header_tools)
 
-[Reference: F Szczepankiewicz, S Hoge, C-F Westin. Linear, planar and spherical tensor-valued diffusion MRI data by free waveform encoding in healthy brain, water, oil and liquid crystals. Data in Brief (2019)](nolinkyet)
+[Reference: F Szczepankiewicz, S Hoge, C-F Westin. Linear, planar and spherical tensor-valued diffusion MRI data by free waveform encoding in healthy brain, water, oil and liquid crystals. Data in Brief (2019), DOI: https://doi.org/10.1016/j.dib.2019.104208](https://www.sciencedirect.com/science/article/pii/S2352340919305621?via%3Dihub)
 <br/><br/>
 
 [**Examples of brain protocols and performance at multiple systems**](https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019)  
@@ -51,8 +51,10 @@ The repository contains detailed information about experimental setup, waveforms
 [Reference: Szczepankiewicz F, Sjölund J, Ståhlberg F, Lätt J, Nilsson M. Tensor-valued diffusion encoding for diffusional variance decomposition (DIVIDE): Technical feasibility in clinical MRI systems. PLoS ONE. 2019;14(3):e0214238. https://doi.org/10.1371/journal.pone.0214238](https://doi.org/10.1371/journal.pone.0214238)
 <br/><br/>
 
-**Open source tensor-valued diffusion encoded data**  
-Under construction...
+[**Open source tensor-valued diffusion encoded data**](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019)
+This is an open source repository that supplies diffusion-MRI data with tensor-valued diffusion encoding. Data is available in a healthy human brain in vivo as well as water, oil and liquid crystal phantoms. The repository also contains detailed information and resources concerning the experiment and its design.
+
+[Reference: F Szczepankiewicz, S Hoge, C-F Westin. Linear, planar and spherical tensor-valued diffusion MRI data by free waveform encoding in healthy brain, water, oil and liquid crystals. Data in Brief (2019), DOI: https://doi.org/10.1016/j.dib.2019.104208](https://www.sciencedirect.com/science/article/pii/S2352340919305621?via%3Dihub)
 <br/><br/>
 
 [**Seminar on the benefit of using tensor-valued diffusion encoding (YouTube)**](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s)  
