@@ -2,6 +2,14 @@
 
 This repository contains manuals and standard configurations for the FWF sequence developed at Lund University and Harvard Medical School by Filip Szczepankiewicz, Carl-Fredrik Westin and Markus Nilsson.
 
+The repository is a Work in Progress, but is intended to contain:  
+* Descriptions of implemnetaitons at Siemens and Philips systems (GE and United may be added in future)
+* Example waveforms for QTI/DIVIDE in brain
+* Example sampling schemes for QTI/DIVIDE in brain
+* Sequence installation manuals
+
+Please contact fszczepankiewicz@bwh.harvard.edu with suggestions for what should be included.
+
 ## Related resources
 
 Below is a collection of related resources that may help in the implementation, design and analysis of experiments related to the FWF sequence.
