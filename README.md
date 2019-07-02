@@ -7,6 +7,7 @@ The repository is a Work in Progress, but is intended to contain:
 * Example waveforms for QTI/DIVIDE in brain
 * Example sampling schemes for QTI/DIVIDE in brain
 * Sequence installation manuals
+* A compilation of **Related resources** to simplify the search for useful tools
 
 Please contact fszczepankiewicz@bwh.harvard.edu with suggestions for what should be included.
 
