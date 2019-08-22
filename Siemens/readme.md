@@ -11,12 +11,12 @@ Currently there are two main sequence variants: the _full_ FWF sequence, denoted
 **Example 1:**
 
     VE11C_FWF_V1.13s_190317
-This is the standard FWF sequence compiled 17th March, 2019 for the VE11C version of IDEA using no specific service pack. It is the simple variant (skew is "s") based on version 1.13.
+This is the standard FWF sequence compiled 17th March, 2019 for the VE11C version of IDEA using no specific service pack. It is the simple variant (variant is "s") based on version 1.13.
 
 **Example 2:**
 
     VE11C_SP03_SMSFWF_V1.12x_181212
-This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version of IDEA using service pack 03. It is a non-standard skew  meaning that it has some special functionallity (skew is "x") based on version 1.12.
+This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version of IDEA using service pack 03. It is a non-standard variant meaning that it has some special functionallity (variant is "x") based on version 1.12.
 
 ## Compiled versions
 
