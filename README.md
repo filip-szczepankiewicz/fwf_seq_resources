@@ -16,12 +16,12 @@ Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bw
 ### Installing the sequence/patch
 **Siemens:** Instructions for how the sequence is installed are found [here](/Siemens/Installation/MANUAL%20seq%20install.pdf), and a manual for the "simple" sequence setup is found [here](/Siemens/v1.13s/documents/MANUAL_FWF_v1.13s_d1.0.pdf).  
 
-**Other:** Instructions for installation and setup are provided by the vendor.  
+**Other vendors:** Instructions for installation and setup are provided by the vendor.  
 
 ### Designing waveforms and sampling schemes
 Each experiment must consider the design of the gradient waveform that will yield the diffusion encoding, and the signal sampling scheme (b-values, rotations etc.). Below, we have collated tools and examples of these components.  
 
-**Waveform design:** A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes compensation of concomitant field gradients, as described [here](https://doi.org/10.1002/mrm.27828).  
+**Waveform design:** A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes compensation of concomitant field gradient effects, as described [here](https://doi.org/10.1002/mrm.27828).  
 
 **Example sampling schemes:** Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.  
 
@@ -33,8 +33,9 @@ Each experiment must consider the design of the gradient waveform that will yiel
 ### Validating the implementation
 WIP
 
-### Analysis and interpretation
-We have published an [extensive framework in open source](https://github.com/markus-nilsson/md-dmri) for the analysis of data encoded by b-tensors and more. Please refer to [these instructions](https://github.com/markus-nilsson/md-dmri#how-to-start) for the setup of analysis pipelines, and the [interpretation of model parameters](https://github.com/markus-nilsson/md-dmri/tree/master/methods).
+### Model fitting and interpretation
+We have published an [extensive framework in open source](https://github.com/markus-nilsson/md-dmri) for the analysis of data encoded by b-tensors and more. Please refer to these [instructions](https://github.com/markus-nilsson/md-dmri#how-to-start) for the setup of analysis pipelines, and the interpretation of [model parameters](https://github.com/markus-nilsson/md-dmri/tree/master/methods#md-dmri-methods).
+<br/><br/>
 
 ## Related resources
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
@@ -59,7 +60,7 @@ Numerical Optimization of gradient waveforms (NOW) is MATLAB package for flexibl
 <br/>
 
 #### Concomitant gradient analysis \[[GitHub](https://github.com/markus-nilsson/md-dmri/tree/master/tools/cfa)\] \[[Citation](https://doi.org/10.1002/mrm.27828)\]  
-The concomitant field analysis (CFA) tool is part of the [MD-dMRI framework](https://github.com/markus-nilsson/md-dmri), and allows for the design and analysis of Maxwell terms in arbitrary gradient waveforms.
+The concomitant field analysis (CFA) tool is part of the [MD-dMRI framework](https://github.com/markus-nilsson/md-dmri), and allows for the design and analysis of Maxwell terms in arbitrary gradient waveforms.  
 [_Szczepankiewicz F, Westin, C‐F, Nilsson M. Maxwell‐compensated design of asymmetric gradient waveforms for tensor‐valued diffusion encoding. Magn Reson Med. 2019;00:1–14. https://doi.org/10.1002/mrm.27828_](https://doi.org/10.1002/mrm.27828)
 <br/>
 
