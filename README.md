@@ -5,6 +5,7 @@ This repository contains materials and tools to support the implementation and u
 The sequence is a diffusion-weighted spin-echo that facilitates the execution of user-defined gradient waveforms for the purposes of tensor-valued diffusion encoding and other methods that require arbitrary modulation of the gradients.  
 
 Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bwh.harvard.edu).
+<br/><br/>
 
 ### Getting the sequence/patch
 **Siemens:** Request the FWF sequence from Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and intended use case. Please check the [list of compiled variants](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
@@ -12,11 +13,13 @@ Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bw
 **Philips:** Code is shared via PARADISE, but it is recomended that you request the FWF patch from your Philips representative.  
 
 **GE and United Imaging:** Contact your local vendor representative, and request the FWF sequence.  
+<br/><br/>
 
 ### Installing the sequence/patch
 **Siemens:** Instructions for how the sequence is installed are found [here](/Siemens/Installation/MANUAL%20seq%20install.pdf), and a manual for the "simple" sequence setup is found [here](/Siemens/v1.13s/documents/MANUAL_FWF_v1.13s_d1.0.pdf).  
 
 **Other vendors:** Instructions for installation and setup are provided by the vendor.  
+<br/><br/>
 
 ### Designing waveforms and sampling schemes
 Each experiment must consider the design of the gradient waveform that will yield the diffusion encoding, and the signal sampling scheme (b-values, rotations etc.). Below, we have collated tools and examples of these components.  
@@ -29,9 +32,11 @@ Each experiment must consider the design of the gradient waveform that will yiel
 
 * DIVIDE in brain in multiple MRI systems \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019)\] \[[Citation](https://doi.org/10.1371/journal.pone.0214238)\]
 * WIP
+<br/><br/>
 
 ### Validating the implementation
 WIP
+<br/><br/>
 
 ### Model fitting and interpretation
 We have published an [extensive framework in open source](https://github.com/markus-nilsson/md-dmri) for the analysis of data encoded by b-tensors and more. Please refer to these [instructions](https://github.com/markus-nilsson/md-dmri#how-to-start) for the setup of analysis pipelines, and the interpretation of [model parameters](https://github.com/markus-nilsson/md-dmri/tree/master/methods#md-dmri-methods).
