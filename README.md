@@ -8,7 +8,7 @@ The sequence is a diffusion-weighted spin-echo that facilitates the execution of
 Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bwh.harvard.edu).
 <br/><br/>
 
-### Getting the sequence/patch
+### Getting the sequence
 **Siemens:** Request the FWF sequence from Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and intended use case. Please check the [list of compiled variants](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
 **Philips:** Code is shared via PARADISE, but it is recomended that you request the FWF patch from your Philips representative.  
@@ -16,14 +16,14 @@ Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bw
 **GE and United Imaging:** Contact your local vendor representative, and request the FWF sequence.
 <br/><br/>
 
-### Installing the sequence/patch
+### Installing the sequence
 **Siemens:** Instructions for sequence installation are found [here](/Siemens/Installation/MANUAL%20seq%20install.pdf), and a manual for the "simple" sequence setup is found [here](/Siemens/v1.13s/documents/MANUAL_FWF_v1.13s_d1.0.pdf).  
 
 **Other vendors:** Instructions for installation and setup are provided by the vendor.
 <br/><br/>
 
 ### Designing the experiment
-The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. Below, we have collected tools and examples related to these components.  
+The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
 
 **Waveform design:** A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes compensation of concomitant field gradient effects, as described [here](https://doi.org/10.1002/mrm.27828).  
 
@@ -32,6 +32,7 @@ The design of the gradient waveforms (b-tensor shapes) and the signal sampling s
 **Published waveforms and sampling schemes:** The following is a list of published sampling schemes:  
 
 * B-tensor encoding in brain in multiple MRI systems \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019)\] \[[Citation](https://doi.org/10.1371/journal.pone.0214238)\]
+* Open source data encoded with LTE, PTE and STE  \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019)\] \[[Citation](https://doi.org/10.1016/j.dib.2019.104208)\]
 * WIP
 <br/><br/>
 
