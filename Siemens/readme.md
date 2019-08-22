@@ -3,7 +3,7 @@
 ## Naming convention
 The full name of a sequence contains several important bits of information about its version and compatability. The convention is as follows:
 
-    [IDEAVERSION] [*_SERVICEPACK] [_SEQNAME] [_VERSION and SKEW] [_COMPILEDATE (yymmdd)] [*_COMMENT]
+    [IDEAVERSION] [*_SERVICEPACK] [_SEQNAME] [_VERSION and VARIANT] [_COMPILEDATE (yymmdd)] [*_COMMENT]
 
 Astrisk denotes optional components.
 
