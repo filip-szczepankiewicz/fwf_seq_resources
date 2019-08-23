@@ -7,19 +7,17 @@ Astrisk denotes optional components.
 
 ### Sequence variants
 Currently there are two main sequence variants: 
-##### "a" - Advanced
+#### "a" - Advanced
 The advanced variant allows maximal freedom in the experimental design. It requires knowledge about the system and theoretical background to operate correctly.
 
-##### "s" - Simple
+#### "s" - Simple
 The simple variant is maximally automated for simplified use. It uses only pre-defined gradient waveforms (hard coded; no need for waveform library) for linear, planar and spherical b-tensor encoding.
 
-**Example 1:**
-
+#### Example 1:
     VE11C_FWF_V1.13s_190317
 This is the standard FWF sequence compiled 17th March, 2019 for the VE11C version of IDEA using no specific service pack. It is the simple variant (variant is "s") based on version 1.13.
 
-**Example 2:**
-
+#### Example 2:
     VE11C_SP03_SMSFWF_V1.12x_181212
 This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version of IDEA using service pack 03. It is a non-standard variant meaning that it has some special functionallity (variant is "x") based on version 1.12.
 
