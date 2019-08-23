@@ -6,7 +6,12 @@ The full name of a sequence contains several important bits of information about
 Astrisk denotes optional components.
 
 ### Sequence variants
-Currently there are two main sequence variants: the _full_ FWF sequence, denoted by "a", and the _simple_ variant, denoted by "s". The full variant allows maximal flexibility in the experimental design, whereas the simple variant comes with simple controls and pre-defined gradient waveforms for linear, planar and spherical b-tensor encoding.
+Currently there are two main sequence variants: 
+##### "a" - Advanced
+The advanced variant allows maximal freedom in the experimental design. It requires knowledge about the system and theoretical background to operate correctly.
+
+##### "s" - Simple
+The simple variant is maximally automated for simplified use. It uses only pre-defined gradient waveforms (hard coded; no need for waveform library) for linear, planar and spherical b-tensor encoding.
 
 **Example 1:**
 
