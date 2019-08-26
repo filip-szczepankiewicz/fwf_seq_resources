@@ -11,7 +11,7 @@ Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bw
 ### Getting the sequence
 **Siemens:** Request the FWF sequence from Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and intended use case. Please check the [list of compiled variants](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
-**Philips, GE and United Imaging:** Contact your local vendor representative, and request the FWF sequence.
+**Philips, GE and United Imaging:** Contact your vendor representative, and request the FWF sequence.
 <br/><br/>
 
 ### Installing the sequence
