@@ -11,15 +11,13 @@ Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bw
 ### Getting the sequence
 **Siemens:** Request the FWF sequence from Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and intended use case. Please check the [list of compiled variants](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
-**Philips:** Code is shared via PARADISE, but it is recomended that you request the FWF patch from your Philips representative.  
-
-**GE and United Imaging:** Contact your local vendor representative, and request the FWF sequence.
+**Philips, GE and United Imaging:** Contact your local vendor representative, and request the FWF sequence.
 <br/><br/>
 
 ### Installing the sequence
 **Siemens:** Instructions for sequence installation are found [here](/Siemens/Installation/MANUAL%20seq%20install.pdf), and a manual for the "simple" sequence setup is found [here](/Siemens/v1.13s/documents/MANUAL_FWF_v1.13s_d1.0.pdf).  
 
-**Other vendors:** Instructions for installation and setup are provided by the vendor.
+**Philips, GE and United Imaging:** Instructions for installation and setup are provided by the vendor.
 <br/><br/>
 
 ### Designing the experiment
