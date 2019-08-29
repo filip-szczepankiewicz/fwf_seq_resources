@@ -52,13 +52,13 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.07c (with trigger)
 * 1.07d (MOTHER)
 
-### VD13A (SP4)
+### VD13A_SP04
 * 0.10a
 
 ### VD13C
 * 150420a
 
-### VD13C (SP2)
+### VD13C_SP02
 * 150507a
 
 ### VD13D
