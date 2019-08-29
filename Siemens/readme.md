@@ -23,7 +23,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 
 ## Compiled versions
 
-### VE11C
+### VE11C / VE11C_SP01
 * 1.06a
 * 1.07a
 * 1.11a / s
