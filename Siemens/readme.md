@@ -1,3 +1,5 @@
+# Implementation of FWF at the Siemens platform
+
 ## Sequence naming convention
 The full name of a sequence contains several important bits of information about its version and compatability. The convention is as follows:
 
@@ -66,5 +68,27 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.05a
 * 1.07a
 
-## Abbreviated version log
-WIP
+## Abbreviated list of version features
+* 1.07
+  * Added automatic scaling of waveform in time
+  * Added trapezoidal and bi-trapezoidal waveforms to common bank
+* 1.09
+  * Added support for storing waveform in DICOM header
+  * Reworked tooltip to avoid overflow
+* 1.10
+  * Added up to 20 study banks
+  * Added up to 16 waveform pairs per study
+* 1.12
+  * Created simple sequence variant
+  * Added hard coded waveforms (LTE, PTE, STE)
+  * Waveform diffusion time was minimized along 1st channel
+* 1.13
+  * Re-optimized hard coded waveforms (LTE, PTE, STE)
+  * STE is rotated to have the lowest diffusion time along 1st channel
+  * LTE is 1st channel of STE; PTE is independently optimized
+  * Added version handling for stored waveforms
+  * Experimental removal of 2nd crusher
+  
+  
+  
+  
