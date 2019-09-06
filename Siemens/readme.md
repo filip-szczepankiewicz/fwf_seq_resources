@@ -81,10 +81,10 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.12
   * Created simple sequence variant
   * Added hard coded waveforms (LTE, PTE, STE)
-  * Waveform diffusion time was minimized along 1st channel
+  * Diffusion time was maximized along 1st channel (Ch-x)
 * 1.13
   * Re-optimized hard coded waveforms (LTE, PTE, STE)
-  * STE is rotated to have the lowest diffusion time along 1st channel
+  * STE is rotated to have the lowest diffusion time along 1st channel (Ch-x)
   * LTE is 1st channel of STE; PTE is independently optimized
   * Added version handling for stored waveforms
   * Experimental removal of 2nd crusher
