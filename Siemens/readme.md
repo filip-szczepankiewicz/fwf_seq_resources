@@ -15,6 +15,9 @@ The advanced variant allows maximal freedom in the experimental design. It requi
 #### "s" - Simple
 The simple variant is maximally automated for simplified use. It uses only pre-defined gradient waveforms (hard coded; no need for waveform library) for linear, planar and spherical b-tensor encoding.
 
+#### "c" - Connectome
+From sequence version 1.13, this variant is tailored specifically to the Connectome system. It adjusts several features that are only relevant for the strong gradients at this system.
+
 #### Example 1:
     VE11C_FWF_V1.13s_190317
 This is the standard FWF sequence compiled 17th March, 2019 for the VE11C version of IDEA using no specific service pack. It is the simple variant (variant is "s") based on version 1.13.
