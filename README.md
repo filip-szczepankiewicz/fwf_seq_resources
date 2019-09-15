@@ -1,7 +1,7 @@
 ## Free Waveform Encoding (FWF) sequence resources
 
 ### Overview
-This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by F Szczepankiewicz, C-F Westin and M Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE and United Imaging MRI platforms by the respective vendors.  
+This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by F Szczepankiewicz, C-F Westin and M Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE and United Imaging MRI platforms by the respective vendors. An implementation for Bruker spectrometers was developed by D Topgaard, and is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).  
 
 The sequence is a diffusion-weighted spin-echo that facilitates the execution of user-defined gradient waveforms for the purposes of tensor-valued diffusion encoding and other methods that require arbitrary modulation of the gradients.  
 
@@ -9,25 +9,32 @@ Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bw
 <br/><br/>
 
 ### Getting the sequence
-**Siemens:** Request the FWF sequence from Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and intended use case. Please check the [list of compiled variants](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
+**Siemens**  
+Request the FWF sequence from Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and intended use case. Please check the [list of compiled variants](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
-**Philips, GE and United Imaging:** Contact your vendor representative, and request the FWF sequence.
+**Philips, GE and United Imaging**  
+Contact your vendor representative, and request the FWF sequence.
 <br/><br/>
 
 ### Installing the sequence
-**Siemens:** Instructions for sequence installation are found [here](/Siemens/Installation/MANUAL%20seq%20install.pdf), and a manual for the "simple" sequence setup is found [here](/Siemens/v1.13s/documents/MANUAL_FWF_v1.13s_d1.0.pdf).  
+**Siemens**  
+Instructions for sequence installation are found [here](/Siemens/Installation/MANUAL%20seq%20install.pdf), and a manual for the "simple" sequence setup is found [here](/Siemens/v1.13s/documents/MANUAL_FWF_v1.13s_d1.0.pdf).  
 
-**Philips, GE and United Imaging:** Instructions for installation and setup are provided by the vendor.
+**Philips, GE and United Imaging**  
+Instructions for installation and setup are provided by the vendor.
 <br/><br/>
 
 ### Designing the experiment
 The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
 
-**Waveform design:** A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes compensation of concomitant field gradient effects, as described [here](https://doi.org/10.1002/mrm.27828).  
+**Waveform design**  
+A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes compensation of concomitant field gradient effects, as described [here](https://doi.org/10.1002/mrm.27828).  
 
-**Example sampling schemes:** Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.  
+**Example sampling schemes**  
+Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.  
 
-**Published waveforms and sampling schemes:** The following is a list of published sampling schemes:  
+**Published waveforms and sampling schemes**  
+The following is a list of published sampling schemes:  
 
 * B-tensor encoding in brain in multiple MRI systems \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019)\] \[[Citation](https://doi.org/10.1371/journal.pone.0214238)\]
 * Open source data encoded with LTE, PTE and STE  \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019)\] \[[Citation](https://doi.org/10.1016/j.dib.2019.104208)\]
@@ -42,7 +49,7 @@ WIP
 We have published an [extensive framework in open source](https://github.com/markus-nilsson/md-dmri) for the analysis of data encoded by b-tensors and more. Please refer to these [instructions](https://github.com/markus-nilsson/md-dmri#how-to-start) for the setup of analysis pipelines, and the interpretation of [model parameters](https://github.com/markus-nilsson/md-dmri/tree/master/methods#md-dmri-methods).
 <br/><br/>
 
-## Related resources
+## External resources
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
 * **[Multidimensional analysis framework](#multidimensional-analysis-framework-github-citation)**
 * **[Gradient waveform optimization](#gradient-waveform-optimization-github-citation)**
