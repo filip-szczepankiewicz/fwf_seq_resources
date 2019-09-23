@@ -77,7 +77,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Added trapezoidal and bi-trapezoidal waveforms to common bank
 * 1.09
   * Added support for storing waveform in DICOM header
-  * Fixed error in RM+Sc rotation mode which did not work properly in 1.07
+  * Fixed error in "AngToRM" rotation mode which did not work properly in 1.07
   * Reworked tooltip to avoid overflow
 * 1.10
   * Added up to 20 study banks
