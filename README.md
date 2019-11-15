@@ -38,7 +38,7 @@ The following is a list of published sampling schemes:
 
 * B-tensor encoding in brain in multiple MRI systems \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019)\] \[[Citation](https://doi.org/10.1371/journal.pone.0214238)\]
 * Open source data encoded with LTE, PTE and STE  \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019)\] \[[Citation](https://doi.org/10.1016/j.dib.2019.104208)\]
-* WIP
+* Diffusion-T2-relaxation correlation for compartment imaging \[[GitHub](https://github.com/belampinen/lampinen_mrm_2019)\] \[[Citation]()\]
 <br/><br/>
 
 ### Validating the implementation
