@@ -22,7 +22,7 @@ Please contact Timo Schirmer (timo.schirmer@med.ge.com).
 Please contact Weiguo Zhang (weiguo.zhang@united-imaging.com).
 
 **Brukker Avance (TopSpin)**  
-An implementation developed by Daniel Topgaard is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).
+An implementation developed by Daniel Topgaard at Lund University is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).
 
 <br/><br/>
 
