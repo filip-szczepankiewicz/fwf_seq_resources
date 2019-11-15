@@ -1,19 +1,29 @@
 ## Free Waveform Encoding (FWF) sequence resources
 
 ### Overview
-This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by F Szczepankiewicz, C-F Westin and M Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE and United Imaging MRI platforms by the respective vendors. An implementation for Bruker spectrometers was developed by D Topgaard, and is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).  
+This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by F Szczepankiewicz, C-F Westin and M Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE, United Imaging and Brukker platforms (see info below).
 
 The sequence is a diffusion-weighted spin-echo that facilitates the execution of user-defined gradient waveforms for the purposes of tensor-valued diffusion encoding and other methods that require arbitrary modulation of the gradients.  
 
-Please send feedback and questions to Filip Szczepankiewicz (fszczepankiewicz@bwh.harvard.edu).
 <br/><br/>
 
 ### Getting the sequence
 **Siemens**  
-Request the FWF sequence from Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and intended use case. Please check the [list of compiled variants](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
+Please contact Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and use case. 
+Please check the [*list of compiled variants*](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
-**Philips, GE and United Imaging**  
-Contact your vendor representative, and request the FWF sequence.
+**Philips**  
+Please contact Maarten Versluis (maarten.versluis@philips.com).
+
+**GE**  
+Please contact Timo Schirmer (timo.schirmer@med.ge.com).
+
+**United Imaging**  
+Please contact Weiguo Zhang (weiguo.zhang@united-imaging.com).
+
+**Brukker Avance (TopSpin)**  
+An implementation developed by Daniel Topgaard is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).
+
 <br/><br/>
 
 ### Installing the sequence
