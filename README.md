@@ -8,8 +8,8 @@ The sequence is a diffusion-weighted spin-echo that facilitates the execution of
 
 ### Getting the sequence
 **Siemens**  
-Please contact Markus Nilsson at Lund University (markus.nilsson@med.lu.se). Please provide information about the intended hardware and use case. 
-Please check the [*list of compiled variants*](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
+Please contact Markus Nilsson at Lund University (markus.nilsson@med.lu.se).  
+Check the [**list of compiled variants**](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
 **Philips**  
 Please contact Maarten Versluis (maarten.versluis@philips.com).
