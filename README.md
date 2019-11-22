@@ -64,7 +64,7 @@ We have published an [extensive framework in open source](https://github.com/mar
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
 * **[Multidimensional analysis framework](#multidimensional-analysis-framework-github-citation)**
 * **[Gradient waveform optimization](#gradient-waveform-optimization-github-citation)**
-* **[Concomitant gradient analysis](#concomitant-gradient-analysis-github-citation)**
+* **[Concomitant gradient analysis](#concomitant-gradient-analysis-github-citation-youtube)**
 * **[Peripheral nerve stimulation prediction](#peripheral-nerve-stimulation-prediction-github-citation)**
 * **[Free waveform sequence header extraction](#free-waveform-sequence-header-extraction-github-citation)**
 * **[Example protocols at multiple systems](#example-protocols-at-multiple-systems-github-citation)**
