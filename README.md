@@ -80,7 +80,7 @@ Multidimensional diffusion MRI (MD-dMRI) framework is a family of conceptually r
 Numerical Optimization of gradient waveforms (NOW) is MATLAB package for flexible generation of waveforms that enable q-space trajectory imaging (QTI) for tensor-valued diffusion encoding.  
 [_Sjölund, J., Szczepankiewicz, F., Nilsson, M., Topgaard, D., Westin, C. F., & Knutsson, H. (2015). Constrained optimization of gradient waveforms for generalized diffusion encoding. Journal of Magnetic Resonance, 261, 157-168._](https://doi.org/10.1016/j.jmr.2015.10.012)
 
-#### Concomitant gradient analysis \[[GitHub](https://github.com/markus-nilsson/md-dmri/tree/master/tools/cfa)\] \[[Citation](https://doi.org/10.1002/mrm.27828)\]  
+#### Concomitant gradient analysis \[[GitHub](https://github.com/markus-nilsson/md-dmri/tree/master/tools/cfa)\] \[[Citation](https://doi.org/10.1002/mrm.27828)\] \[[YouTube](https://www.youtube.com/watch?v=nqqzds7WS2U&feature=emb_logo)\]  
 The concomitant field analysis (CFA) tool is part of the [MD-dMRI framework](https://github.com/markus-nilsson/md-dmri), and allows for the design and analysis of Maxwell terms in arbitrary gradient waveforms.  
 [_Szczepankiewicz F, Westin, C‐F, Nilsson M. Maxwell‐compensated design of asymmetric gradient waveforms for tensor‐valued diffusion encoding. Magn Reson Med. 2019;00:1–14. https://doi.org/10.1002/mrm.27828_](https://doi.org/10.1002/mrm.27828)
 
