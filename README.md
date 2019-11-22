@@ -42,7 +42,7 @@ A framework for numerical gradient waveform optimization was published by [Sjöl
 Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.  
 
 **Example of analysis pipeline**  
-A very brief exale of how to calculate QTI parameters from data (based on the [DIB2019](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019) data set) can be found [here](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019/blob/master/EXAMPLE/dtd_covariance/dib_dtd_covariance_example1.m).
+A very brief example of how to calculate QTI parameters from data (based on the [DIB2019](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019) data set) can be found [here](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019/blob/master/EXAMPLE/dtd_covariance/dib_dtd_covariance_example1.m).
 
 **Published waveforms and sampling schemes**  
 The following is a list of published sampling schemes:  
