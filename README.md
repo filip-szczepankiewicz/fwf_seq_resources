@@ -20,8 +20,9 @@ Please contact Timo Schirmer (timo.schirmer@med.ge.com).
 **United Imaging**  
 Please contact Weiguo Zhang (weiguo.zhang@united-imaging.com).
 
-**Brukker Avance (TopSpin)**  
-An implementation developed by Daniel Topgaard at Lund University is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).
+**Brukker**  
+An implementation by Daniel Topgaard at Lund University is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).  
+An implementation by Mathew Budde at Medical College of Wisconsin is available [here](https://osf.io/4nkg3/).
 <br/><br/>
 
 ### Installing the sequence
