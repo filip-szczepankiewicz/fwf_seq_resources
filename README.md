@@ -64,7 +64,6 @@ This can be done with various tools
 
 * Multidimensional analysis framework (see [below](/fwf_seq_resources#multidimensional-analysis-framework-github-citation))
 * The [eddy tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy) from FSL (although see [this note](/Misc/Postprocessing_Eddy.MD)).
-
 <br/><br/>
 
 ### Model fitting and interpretation
@@ -72,10 +71,7 @@ We have published an [extensive framework in open source](https://github.com/mar
 
 **Example of analysis pipeline**  
 A very brief example of how to calculate QTI parameters from data (based on the [DIB2019](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019) data set) can be found [here](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019/blob/master/EXAMPLE/dtd_covariance/dib_dtd_covariance_example1.m).
-
-
 <br/><br/>
-
 
 ## External resources
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
