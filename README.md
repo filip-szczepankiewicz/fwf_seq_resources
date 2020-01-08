@@ -69,7 +69,13 @@ This can be done with various tools
 
 ### Model fitting and interpretation
 We have published an [extensive framework in open source](https://github.com/markus-nilsson/md-dmri) for the analysis of data encoded by b-tensors and more. Please refer to these [instructions](https://github.com/markus-nilsson/md-dmri#how-to-start) for the setup of analysis pipelines, and the interpretation of [model parameters](https://github.com/markus-nilsson/md-dmri/tree/master/methods#md-dmri-methods).
+
+**Example of analysis pipeline**  
+A very brief example of how to calculate QTI parameters from data (based on the [DIB2019](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019) data set) can be found [here](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019/blob/master/EXAMPLE/dtd_covariance/dib_dtd_covariance_example1.m).
+
+
 <br/><br/>
+
 
 ## External resources
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
