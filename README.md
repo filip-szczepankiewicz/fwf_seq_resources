@@ -1,7 +1,7 @@
 ## Free Waveform Encoding (FWF) sequence resources
 
 ### Overview
-This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by F Szczepankiewicz, C-F Westin and M Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE, United Imaging and Brukker platforms (see info below).
+This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by F Szczepankiewicz, C-F Westin and M Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE, United Imaging and Bruker platforms (see info below).
 
 The sequence is a diffusion-weighted spin-echo that facilitates the execution of user-defined gradient waveforms for the purposes of tensor-valued diffusion encoding and other methods that require arbitrary modulation of the gradients.
 <br/><br/>
@@ -20,7 +20,7 @@ Please contact Timo Schirmer (timo.schirmer@med.ge.com).
 **United Imaging**  
 Please contact Weiguo Zhang (weiguo.zhang@united-imaging.com).
 
-**Brukker**  
+**Bruker**  
 An implementation by Daniel Topgaard at Lund University is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).  
 An implementation by Mathew Budde at Medical College of Wisconsin is available [here](https://osf.io/4nkg3/).
 <br/><br/>
@@ -42,9 +42,6 @@ A framework for numerical gradient waveform optimization was published by [Sjöl
 **Example sampling schemes**  
 Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.  
 
-**Example of analysis pipeline**  
-A very brief example of how to calculate QTI parameters from data (based on the [DIB2019](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019) data set) can be found [here](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019/blob/master/EXAMPLE/dtd_covariance/dib_dtd_covariance_example1.m).
-
 **Published waveforms and sampling schemes**  
 The following is a list of published sampling schemes:  
 
@@ -57,9 +54,28 @@ The following is a list of published sampling schemes:
 WIP
 <br/><br/>
 
+### Image postprocessing
+
+Postprocessing can be done using regular tools developed by the diffusion 
+MRI community. Special care is however needed for correction of distortions 
+due to eddy currents and subject movement to avoid artefacts (see 
+[Nilsson et al., 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141825)).
+This can be done with various tools
+
+* Multidimensional analysis framework (see [below](/fwf_seq_resources#multidimensional-analysis-framework-github-citation))
+* The [eddy tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy) from FSL (although see [this note](/Misc/Postprocessing_Eddy.MD)).
+
+<br/><br/>
+
 ### Model fitting and interpretation
 We have published an [extensive framework in open source](https://github.com/markus-nilsson/md-dmri) for the analysis of data encoded by b-tensors and more. Please refer to these [instructions](https://github.com/markus-nilsson/md-dmri#how-to-start) for the setup of analysis pipelines, and the interpretation of [model parameters](https://github.com/markus-nilsson/md-dmri/tree/master/methods#md-dmri-methods).
+
+**Example of analysis pipeline**  
+A very brief example of how to calculate QTI parameters from data (based on the [DIB2019](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019) data set) can be found [here](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019/blob/master/EXAMPLE/dtd_covariance/dib_dtd_covariance_example1.m).
+
+
 <br/><br/>
+
 
 ## External resources
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
