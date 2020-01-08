@@ -65,7 +65,7 @@ This can be done with various tools
 * Multidimensional analysis framework (see [below](https://github.com/markus-nilsson/fwf_seq_resources#multidimensional-analysis-framework-github-citation))
 * The [eddy tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy) from FSL (although see [this note](https://github.com/filip-szczepankiewicz/fwf_seq_resources/blob/master/Misc/Postprocessing_Eddy.MD)).
 
-
+<br/><br/>
 
 ### Model fitting and interpretation
 We have published an [extensive framework in open source](https://github.com/markus-nilsson/md-dmri) for the analysis of data encoded by b-tensors and more. Please refer to these [instructions](https://github.com/markus-nilsson/md-dmri#how-to-start) for the setup of analysis pipelines, and the interpretation of [model parameters](https://github.com/markus-nilsson/md-dmri/tree/master/methods#md-dmri-methods).
