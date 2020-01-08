@@ -59,7 +59,7 @@ WIP
 Postprocessing can be done using regular tools developed by the diffusion 
 MRI community. Special care is however needed for correction of distortions 
 due to eddy currents and subject movement to avoid artefacts (see 
-(Nilsson et al., 2015)[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141825]).
+[Nilsson et al., 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141825)).
 This can be done with various tools
 
 * Multidimensional analysis framework (see [below](https://github.com/markus-nilsson/fwf_seq_resources#multidimensional-analysis-framework-github-citation))
