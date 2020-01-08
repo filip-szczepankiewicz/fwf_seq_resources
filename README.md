@@ -42,9 +42,6 @@ A framework for numerical gradient waveform optimization was published by [Sjöl
 **Example sampling schemes**  
 Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.  
 
-**Example of analysis pipeline**  
-A very brief example of how to calculate QTI parameters from data (based on the [DIB2019](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019) data set) can be found [here](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019/blob/master/EXAMPLE/dtd_covariance/dib_dtd_covariance_example1.m).
-
 **Published waveforms and sampling schemes**  
 The following is a list of published sampling schemes:  
 
@@ -56,6 +53,19 @@ The following is a list of published sampling schemes:
 ### Validating the implementation
 WIP
 <br/><br/>
+
+### Image postprocessing
+
+Postprocessing can be done using regular tools developed by the diffusion 
+MRI community. Special care is however needed for correction of distortions 
+due to eddy currents and subject movement to avoid artefacts (see 
+(Nilsson et al., 2015)[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141825]).
+This can be done with various tools
+
+* Multidimensional analysis framework (see (below)[https://github.com/markus-nilsson/fwf_seq_resources#multidimensional-analysis-framework-github-citation])
+* The (eddy tool)[https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy] from FSL (although see (this note)[https://github.com/filip-szczepankiewicz/fwf_seq_resources/blob/master/Misc/Postprocessing_Eddy.MD]).
+
+
 
 ### Model fitting and interpretation
 We have published an [extensive framework in open source](https://github.com/markus-nilsson/md-dmri) for the analysis of data encoded by b-tensors and more. Please refer to these [instructions](https://github.com/markus-nilsson/md-dmri#how-to-start) for the setup of analysis pipelines, and the interpretation of [model parameters](https://github.com/markus-nilsson/md-dmri/tree/master/methods#md-dmri-methods).
