@@ -1,7 +1,7 @@
 ## Free Waveform Encoding (FWF) sequence resources
 
 ### Overview
-This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by F Szczepankiewicz, C-F Westin and M Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE, United Imaging and Brukker platforms (see info below).
+This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by F Szczepankiewicz, C-F Westin and M Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE, United Imaging and Bruker platforms (see info below).
 
 The sequence is a diffusion-weighted spin-echo that facilitates the execution of user-defined gradient waveforms for the purposes of tensor-valued diffusion encoding and other methods that require arbitrary modulation of the gradients.
 <br/><br/>
@@ -20,7 +20,7 @@ Please contact Timo Schirmer (timo.schirmer@med.ge.com).
 **United Imaging**  
 Please contact Weiguo Zhang (weiguo.zhang@united-imaging.com).
 
-**Brukker**  
+**Bruker**  
 An implementation by Daniel Topgaard at Lund University is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).  
 An implementation by Mathew Budde at Medical College of Wisconsin is available [here](https://osf.io/4nkg3/).
 <br/><br/>
@@ -62,8 +62,8 @@ due to eddy currents and subject movement to avoid artefacts (see
 (Nilsson et al., 2015)[https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141825]).
 This can be done with various tools
 
-* Multidimensional analysis framework (see (below)[https://github.com/markus-nilsson/fwf_seq_resources#multidimensional-analysis-framework-github-citation])
-* The (eddy tool)[https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy] from FSL (although see (this note)[https://github.com/filip-szczepankiewicz/fwf_seq_resources/blob/master/Misc/Postprocessing_Eddy.MD]).
+* Multidimensional analysis framework (see [below](https://github.com/markus-nilsson/fwf_seq_resources#multidimensional-analysis-framework-github-citation))
+* The [eddy tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy) from FSL (although see [this note](https://github.com/filip-szczepankiewicz/fwf_seq_resources/blob/master/Misc/Postprocessing_Eddy.MD)).
 
 
 
