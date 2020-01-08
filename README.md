@@ -62,8 +62,8 @@ due to eddy currents and subject movement to avoid artefacts (see
 [Nilsson et al., 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141825)).
 This can be done with various tools
 
-* Multidimensional analysis framework (see [below](https://github.com/markus-nilsson/fwf_seq_resources#multidimensional-analysis-framework-github-citation))
-* The [eddy tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy) from FSL (although see [this note](https://github.com/filip-szczepankiewicz/fwf_seq_resources/blob/master/Misc/Postprocessing_Eddy.MD)).
+* Multidimensional analysis framework (see [below](/fwf_seq_resources#multidimensional-analysis-framework-github-citation))
+* The [eddy tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy) from FSL (although see [this note](/Misc/Postprocessing_Eddy.MD)).
 
 <br/><br/>
 
