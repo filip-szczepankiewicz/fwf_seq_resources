@@ -28,6 +28,9 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 
 ## Compiled versions
 
+### VE11E
+* 1.16a / s (xm)
+
 ### VE11C / VE11C_SP01
 * 1.06a
 * 1.07a
@@ -93,7 +96,16 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * LTE is 1st channel of STE; PTE is independently optimized
   * Added version handling for stored waveforms
   * Experimental removal of 2nd crusher
-  
+* 1.14
+  * Developed fot non-SMS branch
+  * Added user info about flow and acceleration weighting
+  * Removed second crusher from s-variant (will be reverted or expanded)
+* 1.15
+  * Changed rotation mode for LTE in s-variant to use RM+Sc to be identical to PTE and STE
+  * Added control for extended header (will be reverted)
+* 1.16
+  * Harmonization between VE11C and VE11E
+  * s-variant always uses crushers (may be expanded)
   
   
   
