@@ -1,17 +1,19 @@
-## General Electric (GE) free waveform sequence (version 'xm 1')
+# General Electric (GE) Implementation
+
+## Supported MRI systems (version xm 1)
 
 The following MRI systems support the free waveform sequence, ordererd by gradient system type:
 
 * XRMB
-    * Discovery MR450 1.5T
-    * Discovery MR750 3.0T
+  * Discovery MR450 1.5T
+  * Discovery MR750 3.0T
 * XRMW
-    * Optima MR450w 1.5T
-	* Discovery MR750w 3.0T
-    * SIGNA Artist
-    * SIGNA Architect
+  * Optima MR450w 1.5T
+  * Discovery MR750w 3.0T
+  * SIGNA Artist
+  * SIGNA Architect
 * HRMW
-    * SIGNA Premier
+  * SIGNA Premier
 
 ### Selecting different protocols on the scanner
 
