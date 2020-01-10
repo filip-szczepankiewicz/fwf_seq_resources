@@ -1,4 +1,4 @@
-# Implementation of FWF at the Siemens platform
+# Siemens Implementation
 
 ## Sequence naming convention
 The full name of a sequence contains several important bits of information about its version and compatability. The convention is as follows:
