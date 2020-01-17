@@ -10,7 +10,7 @@ required to make it work.
 
 [Michiel Cottar (PhD)](https://www.ndcn.ox.ac.uk/team/michiel-cottaar) used 
 eddy for postprocessing in a project on estimation of fiber dispersion [1]. 
-Below is a summary of this experience
+Below is a summary of his experience.
 
 >Currently, eddy can only process data which varies with gradient 
 >orientation and b-value, not anything else. This is because the 
