@@ -97,7 +97,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Added version handling for stored waveforms
   * Experimental removal of 2nd crusher
 * 1.14
-  * Developed fot non-SMS branch
+  * Developed for non-SMS branch
   * Added user info about flow and acceleration weighting
   * Removed second crusher from s-variant (will be reverted or expanded)
 * 1.15
