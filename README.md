@@ -50,10 +50,6 @@ The following is a list of published sampling schemes:
 * Diffusion-T2-relaxation correlation for compartment imaging \[[GitHub](https://github.com/belampinen/lampinen_mrm_2019)\] \[[Citation]()\]
 <br/><br/>
 
-### Validating the implementation
-WIP
-<br/><br/>
-
 ### Image postprocessing
 
 Postprocessing can be done using regular tools developed by the diffusion 
