@@ -6,7 +6,10 @@ Depending on the analysis method, the experiment must include a set of samples t
 
 ### Diffusional variance decomposition (DIVIDE) and Q-space trajectory imaging (QTI)
 **General principle**  
-DIVIDE and QTI both require that at least three unique b-values are sampled, and that at least two shapes of the b-tensor are included (b_{\Delta}^2). QTI also requires 28 non-colinear signal samples. 
+DIVIDE and QTI both require that at least three unique b-values are sampled, and that at least two shapes of the b-tensor are included (b_{\Delta}^2). QTI also requires at least 28 non-colinear signal samples. 
 
 * Brain MK1
 * Brain MK2
+    * Short
+    * Intermediate
+    * Long
