@@ -1,4 +1,4 @@
-
+% This function is NOT meant to be executable without access to specialized code.
 
 %% Short sampling scheme
 clear
