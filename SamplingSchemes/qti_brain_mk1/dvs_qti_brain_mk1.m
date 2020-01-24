@@ -8,12 +8,12 @@ listname = 'QTI_brain_mk1';
 %% LTE
 b_l = [0  .1  .7  1.4      2];
 n_l = [1  -6  -10  -15  -30.1];
-g_l = create_gdir_from_bvals_and_dirs(b_l, n_l, 2);
+[g_l, g_l_p] = create_gdir_from_bvals_and_dirs(b_l, n_l, 2);
 
 %% STE
 b_s = [0  .1  .7   1.4    2];
 n_s = [1  -6  -10  -10  -15];
-g_s = create_gdir_from_bvals_and_dirs(b_s, n_s, 2);
+[g_s, g_s_p] = create_gdir_from_bvals_and_dirs(b_s, n_s, 2);
 
 %% CREATE HEADER
 extheader = {...
@@ -36,11 +36,15 @@ disp(extheader)
 write_siemens_grad_table(g_l, 0, [listname '_LTE.dvs'], extheader)
 write_siemens_grad_table(g_s, 0, [listname '_STE.dvs'], extheader)
 
+write_philips_grad_table(g_l_p, 0, [listname '_LTE.txt'])
+write_philips_grad_table(g_s_p, 0, [listname '_STE.txt'])
+
 %% PLOT
 clf
 colormap jet
 plot_gdirs_bcol([g_l; -g_l])
 axis([-1 1 0 1 -1 1]*1.1)
+axis off
 view(0, 0)
 set_p6_figure
 save_current_fig_to_file(['dirs_' listname '_LTE'], pwd, [4 4], 200)
