@@ -67,8 +67,8 @@ We have published an [extensive framework in open source](https://github.com/mar
 
 **Example of analysis pipeline**  
 * A brief example of how to calculate QTI parameters from data (based on the [DIB2019](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019) data set) can be found [here](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019/blob/master/EXAMPLE/dtd_covariance/dib_dtd_covariance_example1.m).
-<br/><br/>
 * A full example including motion correction, QTI parameter fitting, and registration of anatomical sequences can be found [here](https://github.com/markus-nilsson/md-dmri/tree/master/examples/pipeline)
+<br/><br/>
 
 
 ## External resources
