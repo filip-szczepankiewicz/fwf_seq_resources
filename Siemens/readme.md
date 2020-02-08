@@ -8,9 +8,12 @@ The full name of a sequence contains several important bits of information about
 Astrisk denotes optional components.
 
 ### Sequence variants
-Currently there are two main sequence variants: 
+Currently there are four main sequence variants: 
 #### "a" - Advanced
 The advanced variant allows maximal freedom in the experimental design. It requires knowledge about the system and theoretical background to operate correctly.
+
+#### "e" - Experimental
+The experimental variant is similar to the advanced variant, but includes untested and experimental functions.
 
 #### "s" - Simple
 The simple variant is maximally automated for simplified use. It uses only pre-defined gradient waveforms (hard coded; no need for waveform library) for linear, planar and spherical b-tensor encoding.
@@ -104,6 +107,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Changed rotation mode for LTE in s-variant to use RM+Sc to be identical to PTE and STE
   * Added control for extended header (will be reverted)
 * 1.16
+  * Created "Experimental" variant
   * Harmonization between VE11C and VE11E
   * s-variant always uses crushers (may be expanded)
   
