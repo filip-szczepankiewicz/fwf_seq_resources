@@ -110,6 +110,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Created "Experimental" variant
   * Harmonization between VE11C and VE11E
   * s-variant always uses crushers (may be expanded)
-  
+  * Added trapezoidal LTE to the simple/HC library
+  * Moved several function to experimental branch
   
   
