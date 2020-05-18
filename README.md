@@ -21,8 +21,8 @@ Please contact Timo Schirmer (timo.schirmer@med.ge.com).
 Please contact Weiguo Zhang (weiguo.zhang@united-imaging.com).
 
 **Bruker**  
-An implementation by Daniel Topgaard at Lund University is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).  
-An implementation by Mathew Budde at Medical College of Wisconsin is available [here](https://osf.io/4nkg3/).
+An implementation for TopSpin, by Daniel Topgaard at Lund University, is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).  
+An implementation for ParaVision, by Mathew Budde at Medical College of Wisconsin, is available [here](https://osf.io/4nkg3/).
 <br/><br/>
 
 ### Installing the sequence
