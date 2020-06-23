@@ -16,7 +16,7 @@ The advanced variant allows maximal freedom in the experimental design. It requi
 The experimental variant is similar to the advanced variant, but includes untested and experimental functions.
 
 #### "s" - Simple
-The simple variant is maximally automated for simplified use. It uses only pre-defined gradient waveforms (hard coded; no need for waveform library) for linear, planar and spherical b-tensor encoding.
+The simple variant is maximally automated for simplified use. It uses only pre-defined gradient waveforms (hard coded; no need for waveform library) for linear, planar and spherical b-tensor encoding. This variant is limited to b-values of 2 ms/µm<sup>2</sup> to avoid duty cycle issues. 
 
 #### "c" - Connectome
 From sequence version 1.13, this variant is tailored specifically to the Connectome system. It adjusts several features that are only relevant for the strong gradients at this system.
