@@ -34,7 +34,7 @@ Instructions for installation and setup are provided by the vendor.
 <br/><br/>
 
 ### Designing the experiment
-The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
+The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. A comprehensive review of the factors that need be considered is found [here](https://arxiv.org/ftp/arxiv/papers/2007/2007.07631.pdf). In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
 
 **Waveform design**  
 A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes compensation of concomitant field gradient effects, as described [here](https://doi.org/10.1002/mrm.27828).  
@@ -73,6 +73,7 @@ We have published an [extensive framework in open source](https://github.com/mar
 
 ## External resources
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
+* **[Gradient waveform design](#gradient-waveform-design-for-tensor-valued-dMRI-github-citation)**
 * **[Multidimensional analysis framework](#multidimensional-analysis-framework-github-citation)**
 * **[Gradient waveform optimization](#gradient-waveform-optimization-github-citation)**
 * **[Concomitant gradient analysis](#concomitant-gradient-analysis-github-citation-youtube)**
@@ -82,6 +83,10 @@ The following resources will help in the implementation, design and analysis of 
 * **[Open source data](#open-source-data-github-citation)**
 * **[Seminar on tensor-valued diffusion encoding](#seminar-on-tensor-valued-diffusion-encoding-youtube-citation)**
 <br/><br/>
+
+#### Gradient waveform design for tensor-valued dMRI \[[Citation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07631.pdf)\]  
+Tensor-valued diffusion encoding often requires complex gradient wavefomrs. In the design of these, features such as physiology, hardware, and diffusion physics must be considered. This paper reviews the major factors that go into the waveform design, and the tradeoffs that are considered.
+[_F. Szczepankiewicz, C-F. Westin, M. Nilsson. Gradient waveform design for tensor-valued encoding in diffusion MRI. arXiv 2020, arXiv:2007.07631](https://arxiv.org/abs/2007.07631)
 
 #### Multidimensional analysis framework \[[GitHub](https://github.com/markus-nilsson/md-dmri)\] \[[Citation](https://www.researchgate.net/profile/Filip_Szczepankiewicz/publication/325595277_An_open-source_framework_for_analysis_of_multidimensional_diffusion_MRI_data_implemented_in_MATLAB/links/5b179cedaca272d24cc43a0e/An-open-source-framework-for-analysis-of-multidimensional-diffusion-MRI-data-implemented-in-MATLAB.pdf)\]  
 Multidimensional diffusion MRI (MD-dMRI) framework is a family of conceptually related methods relying on advanced gradient modulation schemes and data processing approaches to simultaneously quantify several microstructural and dynamical properties of tissue by separating their effects on the detected MRI signal into multiple acquisition and analysis dimensions.  
