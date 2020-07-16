@@ -73,7 +73,7 @@ We have published an [extensive framework in open source](https://github.com/mar
 
 ## External resources
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
-* **[Gradient waveform design](#gradient-waveform-design-for-tensor-valued-dMRI-github-citation)**
+* **[Gradient waveform design](#gradient-waveform-design-for-tensor-valued-dMRI-citation)**
 * **[Multidimensional analysis framework](#multidimensional-analysis-framework-github-citation)**
 * **[Gradient waveform optimization](#gradient-waveform-optimization-github-citation)**
 * **[Concomitant gradient analysis](#concomitant-gradient-analysis-github-citation-youtube)**
