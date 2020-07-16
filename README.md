@@ -33,7 +33,7 @@ Instructions for sequence installation are found [here](/Siemens/Installation/MA
 Instructions for installation and setup are provided by the vendor.
 <br/><br/>
 
-### Designing the experiment
+### Designing the experiment \[[Review](https://arxiv.org/ftp/arxiv/papers/2007/2007.07631.pdf)\]
 The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. A comprehensive review of the factors that need be considered is found [here](https://arxiv.org/ftp/arxiv/papers/2007/2007.07631.pdf). In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
 
 **Waveform design**  
