@@ -1,6 +1,8 @@
-function [wfa, wfb, wfab] = fwf_wf_113s_pte()
-% function [wfa, wfb, wfab] = fwf_wf_1.13s_pte()
-% Hard coded PTE waveform for FWF seq version 1.13
+function [wfa, wfb, wfab] = fwf_wf_112s_pte()
+% function [wfa, wfb, wfab] = fwf_wf_112s_pte()
+% Hard coded PTE waveform for FWF seq version 1.12s
+
+% For more info: https://github.com/filip-szczepankiewicz/fwf_seq_resources
 
 wfa = [
     0         0         0

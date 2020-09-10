@@ -1,6 +1,7 @@
-function [wfa, wfb, wfab] = fwf_wf_113s_ste()
-% function [wfa, wfb, wfab] = fwf_wf_1.13s_ste()
-% Hard coded STE waveform for FWF seq version 1.13
+function [wfa, wfb, wfab] = fwf_wf_112s_ste()
+% function [wfa, wfb, wfab] = fwf_wf_1.12s_ste()
+% Hard coded STE waveform for FWF seq version 1.12
+% For more info: https://github.com/filip-szczepankiewicz/fwf_seq_resources
 
 wfa = [
     0         0         0
