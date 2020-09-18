@@ -87,12 +87,12 @@ The following resources will help in the implementation, design and analysis of 
 <br/><br/>
 
 #### Gradient waveform design for tensor-valued dMRI \[[Citation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07631.pdf)\]  
-Tensor-valued diffusion encoding often requires complex gradient wavefomrs. In the design of these, features such as physiology, hardware, and diffusion physics must be considered. This paper reviews the major factors that go into the waveform design, and the tradeoffs that are considered.
-[_F. Szczepankiewicz, C-F. Westin, M. Nilsson. Gradient waveform design for tensor-valued encoding in diffusion MRI. arXiv 2020, arXiv:2007.07631](https://arxiv.org/abs/2007.07631)
+Tensor-valued diffusion encoding often requires complex gradient wavefomrs. In the design of these, features such as physiology, hardware, and diffusion physics must be considered. This paper reviews the major factors that go into the waveform design, and the tradeoffs that are considered.  
+[_F. Szczepankiewicz, C-F. Westin, M. Nilsson. Gradient waveform design for tensor-valued encoding in diffusion MRI. arXiv 2020, arXiv:2007.07631_](https://arxiv.org/abs/2007.07631)
 
 #### Motion-compensated gradient waveforms \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_MRM_2020)\] \[[Citation]()\] 
-Bulk motion and incoherent ballistic motion can be misinterpreted as diffusion. This framework extends numerical optimization of waveforms to include nulling of motion encoding to arbitrary order.
-[_F Szczepankiewicz, J Sjölund, E Dall’Armellina, S Plein, J E Schneider, I Teh, and C-F Westin. Motion-compensated gradient waveforms for tensor-valued diffusion encoding by constrained numerical optimization. (in press)]()
+Bulk motion and incoherent ballistic motion can be misinterpreted as diffusion. This framework extends numerical optimization of waveforms to include nulling of motion encoding to arbitrary order.  
+[_F Szczepankiewicz, J Sjölund, E Dall’Armellina, S Plein, J E Schneider, I Teh, and C-F Westin. Motion-compensated gradient waveforms for tensor-valued diffusion encoding by constrained numerical optimization. (in press)_]()
 
 #### Multidimensional analysis framework \[[GitHub](https://github.com/markus-nilsson/md-dmri)\] \[[Citation](https://www.researchgate.net/profile/Filip_Szczepankiewicz/publication/325595277_An_open-source_framework_for_analysis_of_multidimensional_diffusion_MRI_data_implemented_in_MATLAB/links/5b179cedaca272d24cc43a0e/An-open-source-framework-for-analysis-of-multidimensional-diffusion-MRI-data-implemented-in-MATLAB.pdf)\]  
 Multidimensional diffusion MRI (MD-dMRI) framework is a family of conceptually related methods relying on advanced gradient modulation schemes and data processing approaches to simultaneously quantify several microstructural and dynamical properties of tissue by separating their effects on the detected MRI signal into multiple acquisition and analysis dimensions.  
