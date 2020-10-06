@@ -32,8 +32,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 ## Compiled versions
 
 ### VE11E
-* 1.16a (xm)
-* 1.17s (xm)
+* WIP
 
 ### VE11C / VE11C_SP01
 * 1.06a
@@ -107,7 +106,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.15
   * Changed rotation mode for LTE in s-variant to use RM+Sc to be identical to PTE and STE
   * Added control for extended header (will be reverted)
-* 1.16
+* 1.16 (bugged)
   * Created "Experimental" variant
   * Harmonization between VE11C and VE11E
   * s-variant always uses crushers (may be expanded)
