@@ -40,6 +40,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.11a / s
 * 1.12a / s
 * 1.13a / s
+* 1.18a / s
 
 ### VE11B
 * 0.90a
@@ -112,5 +113,8 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * s-variant always uses crushers (may be expanded)
   * Added trapezoidal LTE to the simple/HC library
   * Moved several function to experimental branch
-  
+* 1.18 
+  * Fixed bugg related to new enumeration format
+  * Fixed bugg related to metadata storage in DICOM header
+  * Fixed bugg related to update of special seq card tooltips
   
