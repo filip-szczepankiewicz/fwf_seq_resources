@@ -33,11 +33,11 @@ Instructions for sequence installation are found [here](/Siemens/Installation/MA
 Instructions for installation and setup are provided by the vendor.
 <br/><br/>
 
-### Designing the experiment \[[Review](https://arxiv.org/ftp/arxiv/papers/2007/2007.07631.pdf)\]
-The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. A comprehensive review of the factors that need be considered is found [here](https://arxiv.org/ftp/arxiv/papers/2007/2007.07631.pdf). In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
+### Designing the experiment \[[Review](https://www.sciencedirect.com/science/article/pii/S0165027020304301)\]
+The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. A comprehensive review of the factors that need be considered is found [here](https://www.sciencedirect.com/science/article/pii/S0165027020304301). In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
 
 **Waveform design**  
-A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes [concomitant gradient compensation](https://doi.org/10.1002/mrm.27828), as well as [motion encoding compensation]().
+A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes [concomitant gradient compensation](https://doi.org/10.1002/mrm.27828), as well as [motion encoding compensation](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551).
 
 **Example sampling schemes**  
 Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.  
@@ -48,7 +48,7 @@ The following is a list of published sampling schemes:
 * B-tensor encoding in brain in multiple MRI systems \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019)\] \[[Citation](https://doi.org/10.1371/journal.pone.0214238)\]
 * Open source data encoded with LTE, PTE and STE  \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019)\] \[[Citation](https://doi.org/10.1016/j.dib.2019.104208)\]
 * Diffusion-T2-relaxation correlation for compartment imaging \[[GitHub](https://github.com/belampinen/lampinen_mrm_2019)\] \[[Citation](https://doi.org/10.1002/mrm.28216)\]
-* Motion-compensated gradient waveforms by numerical optimization \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_MRM_2020)\] \[[Citation]()\]
+* Motion-compensated gradient waveforms by numerical optimization \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_MRM_2020)\] \[[Citation](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)\]
 <br/><br/>
 
 ### Image postprocessing
