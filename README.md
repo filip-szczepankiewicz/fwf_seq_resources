@@ -74,8 +74,8 @@ We have published an [extensive framework in open source](https://github.com/mar
 
 ## External resources
 The following resources will help in the implementation, design and analysis of experiments related to the FWF sequence.  
-* **[Gradient waveform design](#gradient-waveform-design-for-tensor-valued-dMRI-citation)**
-* **[Motion-compensated gradient waveforms](#Motion-compensated-gradient-waveforms-github-citation)**
+* **[Gradient waveform design](#general-gradient-waveform-design-github-citation)**
+* **[Motion-compensated gradient waveforms](#motion-compensated-gradient-waveforms-github-citation)**
 * **[Multidimensional analysis framework](#multidimensional-analysis-framework-github-citation)**
 * **[Gradient waveform optimization](#gradient-waveform-optimization-github-citation)**
 * **[Concomitant gradient analysis](#concomitant-gradient-analysis-github-citation-youtube)**
@@ -86,13 +86,13 @@ The following resources will help in the implementation, design and analysis of 
 * **[Seminar on tensor-valued diffusion encoding](#seminar-on-tensor-valued-diffusion-encoding-youtube-citation)**
 <br/><br/>
 
-#### Gradient waveform design for tensor-valued dMRI \[[Citation](https://arxiv.org/ftp/arxiv/papers/2007/2007.07631.pdf)\]  
+#### General gradient waveform design \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_JNeuMeth_2021)\] \[[Citation](https://reader.elsevier.com/reader/sd/pii/S0165027020304301?token=969923AFE2D81076361DEBC564A91FF6AC9DF7AC41178639251B5762E6882571C493094B172D5FE4CCBDB82EDABFBB4D)\]  
 Tensor-valued diffusion encoding often requires complex gradient wavefomrs. In the design of these, features such as physiology, hardware, and diffusion physics must be considered. This paper reviews the major factors that go into the waveform design, and the tradeoffs that are considered.  
-[_F. Szczepankiewicz, C-F. Westin, M. Nilsson. Gradient waveform design for tensor-valued encoding in diffusion MRI. arXiv 2020, arXiv:2007.07631_](https://arxiv.org/abs/2007.07631)
+[_F. Szczepankiewicz, C-F. Westin, M. Nilsson. Gradient waveform design for tensor-valued encoding in diffusion MRI._ Journal of Neuroscience Methods, 2020.](https://www.sciencedirect.com/science/article/pii/S0165027020304301)
 
 #### Motion-compensated gradient waveforms \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_MRM_2020)\] \[[Citation](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)\] 
 Bulk motion and incoherent ballistic motion can be misinterpreted as diffusion. This framework extends numerical optimization of waveforms to include nulling of motion encoding to arbitrary order.  
-[_F Szczepankiewicz, J Sjölund, E Dall’Armellina, S Plein, J E Schneider, I Teh, and C-F Westin. Motion-compensated gradient waveforms for tensor-valued diffusion encoding by constrained numerical optimization._](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)
+[_F Szczepankiewicz, J Sjölund, E Dall’Armellina, S Plein, J E Schneider, I Teh, and C-F Westin. Motion-compensated gradient waveforms for tensor-valued diffusion encoding by constrained numerical optimization._ Magn Reson MEd, 2020](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)
 
 #### Multidimensional analysis framework \[[GitHub](https://github.com/markus-nilsson/md-dmri)\] \[[Citation](https://www.researchgate.net/profile/Filip_Szczepankiewicz/publication/325595277_An_open-source_framework_for_analysis_of_multidimensional_diffusion_MRI_data_implemented_in_MATLAB/links/5b179cedaca272d24cc43a0e/An-open-source-framework-for-analysis-of-multidimensional-diffusion-MRI-data-implemented-in-MATLAB.pdf)\]  
 Multidimensional diffusion MRI (MD-dMRI) framework is a family of conceptually related methods relying on advanced gradient modulation schemes and data processing approaches to simultaneously quantify several microstructural and dynamical properties of tissue by separating their effects on the detected MRI signal into multiple acquisition and analysis dimensions.  
