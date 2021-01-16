@@ -12,9 +12,6 @@ Currently there are four main sequence variants:
 #### "a" - Advanced
 The advanced variant allows maximal freedom in the experimental design. It requires knowledge about the system and theoretical background to operate correctly.
 
-#### "e" - Experimental
-The experimental variant is similar to the advanced variant, but includes untested and experimental functions.
-
 #### "s" - Simple
 The simple variant is maximally automated for simplified use. It uses only pre-defined gradient waveforms (hard coded; no need for waveform library) for linear, planar and spherical b-tensor encoding. This variant is limited to b-values of 2 ms/µm<sup>2</sup> to avoid duty cycle issues. 
 
@@ -32,7 +29,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 ## Compiled versions
 
 ### VE11E
-* WIP
+* 1.19a / s
 
 ### VE11C / VE11C_SP01
 * 1.06a
@@ -41,6 +38,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.12a / s
 * 1.13a / s
 * 1.18a / s
+* 1.19a / s
 
 ### VE11B
 * 0.90a
@@ -117,4 +115,8 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Fixed bugg related to new enumeration format
   * Fixed bugg related to metadata storage in DICOM header
   * Fixed bugg related to update of special seq card tooltips
+* 1.19
+  * Added asymmeric pause duration
+  * Added metadata to DICOM header for absolute timing
+  * Added support for HDR export of data
   
