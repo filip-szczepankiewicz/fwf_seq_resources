@@ -88,7 +88,7 @@ The following resources will help in the implementation, design and analysis of 
 
 #### General gradient waveform design \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_JNeuMeth_2021)\] \[[Citation](https://reader.elsevier.com/reader/sd/pii/S0165027020304301?token=969923AFE2D81076361DEBC564A91FF6AC9DF7AC41178639251B5762E6882571C493094B172D5FE4CCBDB82EDABFBB4D)\]  
 Tensor-valued diffusion encoding often requires complex gradient wavefomrs. In the design of these, features such as physiology, hardware, and diffusion physics must be considered. This paper reviews the major factors that go into the waveform design, and the tradeoffs that are considered.  
-[_F. Szczepankiewicz, C-F. Westin, M. Nilsson. Gradient waveform design for tensor-valued encoding in diffusion MRI._ Journal of Neuroscience Methods, 2020.](https://www.sciencedirect.com/science/article/pii/S0165027020304301)
+[_F. Szczepankiewicz, C-F. Westin, M. Nilsson. Gradient waveform design for tensor-valued encoding in diffusion MRI._ Journal of Neuroscience Methods 348, 2020.](https://www.sciencedirect.com/science/article/pii/S0165027020304301)
 
 #### Motion-compensated gradient waveforms \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_MRM_2020)\] \[[Citation](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)\] 
 Bulk motion and incoherent ballistic motion can be misinterpreted as diffusion. This framework extends numerical optimization of waveforms to include nulling of motion encoding to arbitrary order.  
