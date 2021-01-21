@@ -36,6 +36,4 @@ Below is a summary of his experience.
 # References
 
 [1] Improved fibre dispersion estimation using b-tensor encoding. 
-Michiel Cottaar, Filip Szczepankiewicz, Matteo Bastiani, 
-Moises Hernandez-Fernandez, Stamatios N. Sotiropoulos,
-Markus Nilsson, Saad Jbabdi. arXiv. https://arxiv.org/abs/1901.05820.
+Michiel Cottaar, Filip Szczepankiewicz, Matteo Bastiani, Moises Hernandez-Fernandez, Stamatios N. Sotiropoulos, Markus Nilsson, Saad Jbabdi. NeuroImage 215, 2020. https://www.sciencedirect.com/science/article/pii/S1053811920303190.
