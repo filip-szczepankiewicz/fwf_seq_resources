@@ -1,3 +1,6 @@
+## Short, intermediate and long sampling schemes (MK2)
+The sampling schemes herein are intended for QTI of the brain, and yield different acquisition times. Files in the .txt and .dvs formats are compatible with Philips and Siemens formats, respectively. The order of b-values is randomized to alleviate effects of system drift and heating.
+
 #### Short protocol
 
 | Waveform| b-values [ms/µm²] | Acq. volumes |
