@@ -112,6 +112,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Added trapezoidal LTE to the simple/HC library
   * Moved several function to experimental branch
 * 1.18 
+  * Added support for SMS (Siemens product)
   * Fixed bugg related to new enumeration format
   * Fixed bugg related to metadata storage in DICOM header
   * Fixed bugg related to update of special seq card tooltips
