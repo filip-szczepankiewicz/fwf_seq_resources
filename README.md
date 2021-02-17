@@ -27,7 +27,7 @@ An implementation for ParaVision, by Mathew Budde at Medical College of Wisconsi
 
 ### Installing the sequence
 **Siemens**  
-Instructions for sequence installation are found [here](/Siemens/Installation/MANUAL%20seq%20install.pdf), and a manual for the "simple" sequence setup is found [here](/Siemens/v1.13s/documents/MANUAL_FWF_v1.13s_d1.0.pdf).  
+General instructions for sequence installation and a manual for the "simple" sequence setup is found [here](/Siemens/Documents/).  
 
 **Philips, GE and United Imaging**  
 Instructions for installation and setup are provided by the vendor.
