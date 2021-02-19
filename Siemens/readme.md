@@ -39,6 +39,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.13a / s
 * 1.18a / s
 * 1.19a / s
+* 1.20s (xm)
 
 ### VE11B
 * 0.90a
@@ -121,3 +122,5 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Added metadata to DICOM header for absolute timing
   * Added support for HDR export of data
   
+* 1.20
+  * Added simple SMR variant that allows higher b and manual timing
