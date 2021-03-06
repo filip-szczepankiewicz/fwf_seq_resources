@@ -39,7 +39,8 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.13a / s
 * 1.18a / s
 * 1.19a / s
-* 1.20s (xm)
+* 1.20s
+* 1.21s
 
 ### VE11B
 * 0.90a
@@ -124,3 +125,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   
 * 1.20
   * Added simple SMR variant that allows higher b and manual timing
+
+* 1.21
+  * Added LTE Y and Z from STE
+  * Added velocity and acceleration compensated LTE
