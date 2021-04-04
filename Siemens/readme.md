@@ -107,7 +107,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.15
   * Changed rotation mode for LTE in s-variant to use RM+Sc to be identical to PTE and STE
   * Added control for extended header (will be reverted)
-* 1.16 (bugged)
+* 1.16 (buggy)
   * Created "Experimental" variant
   * Harmonization between VE11C and VE11E
   * s-variant always uses crushers (may be expanded)
@@ -115,9 +115,9 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Moved several function to experimental branch
 * 1.18 
   * Added support for SMS (Siemens product)
-  * Fixed bugg related to new enumeration format
-  * Fixed bugg related to metadata storage in DICOM header
-  * Fixed bugg related to update of special seq card tooltips
+  * Fixed bug related to new enumeration format
+  * Fixed bug related to metadata storage in DICOM header
+  * Fixed bug related to update of special seq card tooltips
 * 1.19
   * Added asymmeric pause duration
   * Added metadata to DICOM header for absolute timing
@@ -126,6 +126,6 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
 * 1.20
   * Added simple SMR variant that allows higher b and manual timing
 
-* 1.21
+* 1.21 (experimental)
   * Added LTE Y and Z from STE
   * Added velocity and acceleration compensated LTE
