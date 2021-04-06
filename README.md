@@ -8,7 +8,7 @@ The sequence is a diffusion-weighted spin-echo that facilitates the execution of
 
 ### Getting the sequence
 **Siemens**  
-Please contact Markus Nilsson at Lund University (markus.nilsson@med.lu.se).  
+Please send an email to the [diffusion MRI group at Lund University](mailto:markus.nilsson@med.lu.se).  
 Check the [**list of compiled variants**](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
 **Philips**  
@@ -33,7 +33,7 @@ General instructions for sequence installation and a manual for the "simple" seq
 Instructions for installation and setup are provided by the vendor.
 <br/><br/>
 
-### Designing the experiment \[[Review](https://www.sciencedirect.com/science/article/pii/S0165027020304301)\]
+### Designing the experiment \[[Review paper](https://www.sciencedirect.com/science/article/pii/S0165027020304301)\]
 The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. A comprehensive review of the factors that need be considered is found [here](https://www.sciencedirect.com/science/article/pii/S0165027020304301). In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
 
 **Waveform design**  
