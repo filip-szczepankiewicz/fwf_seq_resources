@@ -1,9 +1,7 @@
 ## Free Waveform (FWF) encoding pulse sequence resources
 
 ### Overview
-This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence was developed for the Philips and Siemens platforms by Filip Szczepankiewicz, Carl-Fredrik Westin and Markus Nilsson at Lund University and Harvard University. Similar pulse sequences have also been implemented on GE, United Imaging and Bruker platforms (see info below).
-
-The sequence is a diffusion-weighted spin-echo that facilitates the execution of user-defined gradient waveforms for the purposes of tensor-valued diffusion encoding and other methods that require arbitrary modulation of the gradients.
+This repository contains materials and tools to support the implementation and use of the "Free Waveform" (FWF) MRI pulse sequence. The sequence is a diffusion-weighted spin-echo that facilitates the execution of user-defined gradient waveforms for the purposes of tensor-valued diffusion encoding and other methods that require arbitrary modulation of the gradients.
 <br/><br/>
 
 ### Getting the sequence
