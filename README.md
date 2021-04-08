@@ -6,7 +6,7 @@ This repository contains materials and tools to support the implementation and u
 
 ### Getting the sequence
 **Siemens**  
-Please send request by email to [Filip Szczepankiewicz at filip.szczepankiewicz@med.lu.se](mailto:filip.szczepankiewicz@med.lu.se).  
+Please send request by email to Filip Szczepankiewicz at [filip.szczepankiewicz@med.lu.se](mailto:filip.szczepankiewicz@med.lu.se).  
 Check the [**list of compiled variants**](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
 **Philips**  
