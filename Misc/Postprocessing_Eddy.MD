@@ -39,7 +39,7 @@ with linear and spherical b-tensor encoding. He encountered the "inconsistent
 b-values detected"-error, and submitted the following fix.  
 
 >For running EDDY on Linear and Spherical diffusion encoded data:
-FSL EDDY expects a minimum number of measurements for each b-value (for low b-value images I think the minimum number of measurements is 6), even for the b0. If the dwi data has only a single b0 image then EDDY will not run and will give the error “Inconsistent b-values detected”.  
+FSL EDDY expects a minimum number of measurements for each b-value (for low b-value images I think the minimum number of measurements is 6), *even for the b0*. If the dwi data has only a single b0 image then EDDY will not run and will give the error *“Inconsistent b-values detected”*.  
 
 >To avoid this, one can remove the b0 image from the dwi data (by using fslroi for example) and then run EDDY on the remaining images. In order for this to work, the bval and bvec text files also need to be updated to remove the values corresponding to the b0 image in the dwi data. After EDDY has been performed, the eddy-corrected dwi images can be merged back with the TOPUP-corrected b0 images (TOPUP-corrected b0 images can be extracted during the TOPUP step using the -iout option). The TOPUP-corrected b0 images will not benefit much from EDDY correction anyway, since there were no diffusion encoding gradients to induce eddy current-related distortions.
 
