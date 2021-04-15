@@ -34,7 +34,7 @@ Below is a summary of his experience.
 >test this).
   
   
-[Nicolas Geades at Philips Norcid](mailto:nicolas.geades@philips.com) used TOPUP and EDDY on data acquired 
+[Nicolas Geades at Philips Clinical Science](mailto:nicolas.geades@philips.com) used TOPUP and EDDY on data acquired 
 with linear and spherical b-tensor encoding. He encountered the "inconsistent 
 b-values detected"-error, and submitted the following fix.  
 
