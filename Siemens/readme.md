@@ -1,83 +1,32 @@
 # Siemens Implementation
 
-## Sequence naming convention
+### Latest compiled versions per IDEA version
+
+|          | VE11E | VE11C | VE11B | VE11A | VD11D | VD13D | VD13A_SP04 |
+|----------|-------|-------|-------|-------|-------|-------|------------|
+| Advanced |  1.19 |  1.19 |  1.05 |  1.07 |  1.13 |  1.07 |  1.07      |
+| Simple   |  1.19 |  1.19 |  -    |  -    |  -    |  -    |  -         |
+
+_If any given IDEA version is not in the table, we have not yet developed the sequence for that platform._  
+<br/>
+
+### Sequence variants
+There are two main sequence variants:  
+* Advanced (a) - The advanced variant allows maximal freedom in the experimental design. It requires knowledge about the MRI hardware to operate correctly. 
+* Simple (s) - The simple variant is robust and automated for simplified use. It includes gradient waveforms (no need for waveform library) for linear, planar and spherical b-tensor encoding and is limited to b-values of 2 ms/µm<sup>2</sup> to avoid duty cycle issues. 
+<br/>
+
+### Sequence naming convention
 The full name of a sequence contains several important bits of information about its version and compatability. The convention is as follows:
 
     [IDEAVERSION] [*_SERVICEPACK] [_SEQNAME] [_VERSION and VARIANT] [_COMPILEDATE (yymmdd)] [*_COMMENT]
 
 Astrisk denotes optional components.
 
-### Sequence variants
-Currently there are four main sequence variants: 
-#### "a" - Advanced
-The advanced variant allows maximal freedom in the experimental design. It requires knowledge about the system and theoretical background to operate correctly.
-
-#### "s" - Simple
-The simple variant is maximally automated for simplified use. It uses only pre-defined gradient waveforms (hard coded; no need for waveform library) for linear, planar and spherical b-tensor encoding. This variant is limited to b-values of 2 ms/µm<sup>2</sup> to avoid duty cycle issues. 
-
-#### "c" - Connectome
-From sequence version 1.13, this variant is tailored specifically to the Connectome system. It adjusts several features that are only relevant for the strong gradients at this system.
-
-#### Example 1:
+#### Example:
     VE11C_FWF_V1.13s_190317
-This is the standard FWF sequence compiled 17th March, 2019 for the VE11C version of IDEA using no specific service pack. It is the simple variant (variant is "s") based on version 1.13.
-
-#### Example 2:
-    VE11C_SP03_SMSFWF_V1.12x_181212
-This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version of IDEA using service pack 03. It is a non-standard variant meaning that it has some special functionallity (variant is "x") based on version 1.12.
-
-## Compiled versions
-
-### VE11E
-* 1.19a / s
-
-### VE11C / VE11C_SP01
-* 1.06a
-* 1.07a
-* 1.11a / s
-* 1.12a / s
-* 1.13a / s
-* 1.18a / s
-* 1.19a / s
-* 1.20s
-* 1.21s
-
-### VE11B
-* 0.90a
-* 1.00a
-* 1.01a
-* 1.02a
-* 1.03b
-* 1.04a
-* 1.05a
-
-### VE11A
-* 1.03b
-* 1.04b
-* 1.05a
-* 1.07a
-
-### VD11D
-* 1.01a
-* 1.05b
-* 1.07b
-* 1.07c (with trigger)
-* 1.07d (MOTHER)
-* 1.13c
-
-### VD13A_SP04
-* 0.10a
-
-### VD13C
-* 150420a
-
-### VD13C_SP02
-* 150507a
-
-### VD13D
-* 1.04a
-* 1.05a
-* 1.07a
+This is the standard FWF sequence compiled 17th March, 2019 for IDEA version VE11C using no specific service pack. It is the simple variant (variant is "s") version 1.13.  
+<br/>
 
 ## Abbreviated list of version features
 * 1.07
@@ -123,7 +72,7 @@ This is the SMS-FWF sequence compiled 12th December, 2018 for the VE11C version 
   * Added metadata to DICOM header for absolute timing
   * Added support for HDR export of data
   
-* 1.20
+* 1.20 (experimental)
   * Added simple SMR variant that allows higher b and manual timing
 
 * 1.21 (experimental)
