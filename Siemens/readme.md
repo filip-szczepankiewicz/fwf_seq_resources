@@ -1,19 +1,24 @@
 # Siemens Implementation
 
-### Latest compiled versions per IDEA version
+### Latest compiled FWF sequence versions per IDEA version
 
-|          | VE11E | VE11C | VE11B | VE11A | VD11D | VD13D | VD13A_SP04 |
-|----------|-------|-------|-------|-------|-------|-------|------------|
-| Advanced |  1.19 |  1.19 |  1.05 |  1.07 |  1.13 |  1.07 |  1.07      |
-| Simple   |  1.19 |  1.19 |  -    |  -    |  -    |  -    |  -         |
+|          | VE11E | VE11C | VD11D | XA20A |
+|----------|-------|-------|-------|-------|
+| Version  |  1.19 |  1.19 |  1.13 |     - |
 
 _If any given IDEA version is not in the table, we have not yet developed the sequence for that platform._  
 <br/>
 
-### Sequence variants
-There are two main sequence variants:  
-* Advanced (a) - The advanced variant allows maximal freedom in the experimental design. It requires knowledge about the MRI hardware to operate correctly. 
-* Simple (s) - The simple variant is robust and automated for simplified use. It includes gradient waveforms (no need for waveform library) for linear, planar and spherical b-tensor encoding and is limited to b-values of 2 ms/µm<sup>2</sup> to avoid duty cycle issues. 
+### Sequence functionallity
+The funcitons/capabilities of the shared FWF sequence are intended to support DIVIDE and QTI-style acquisition. The sequence therefore enables:
+* Tensor-valued diffusion encodign with linear, planar and spherical b-tensors
+  * The linear b-tensor encoding includes two variants: trapezoids and a x-channel of the spherical variant
+  * All waveforms are compensated for concomitant gradients
+  * All waveforms are hard-coded and there is no need for a custom waveform library
+* B-values up to 2000 s/mm<sup>2</sup>
+* Simultaneous multislice (SMS) according to Siemens product implementation (v1.18 and later)
+
+_More advanced variants of the FWF may be shared/supported in the future!_  
 <br/>
 
 ### Sequence naming convention
@@ -68,13 +73,6 @@ This is the standard FWF sequence compiled 17th March, 2019 for IDEA version VE1
   * Fixed bug related to metadata storage in DICOM header
   * Fixed bug related to update of special seq card tooltips
 * 1.19
-  * Added asymmeric pause duration
+  * Added support for asymmeric pause duration
   * Added metadata to DICOM header for absolute timing
   * Added support for HDR export of data
-  
-* 1.20 (experimental)
-  * Added simple SMR variant that allows higher b and manual timing
-
-* 1.21 (experimental)
-  * Added LTE Y and Z from STE
-  * Added velocity and acceleration compensated LTE
