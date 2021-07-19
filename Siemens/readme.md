@@ -4,7 +4,7 @@
 
 |          | VE11E | VE11C | VD11D | XA20A |
 |----------|-------|-------|-------|-------|
-| Version  |  1.19 |  1.19 |  1.13 |     - |
+| Version  |  1.19 |  1.19 |  1.13 |   WIP |
 
 _If any given IDEA version is not in the table, we have not yet developed the sequence for that platform._  
 <br/>
