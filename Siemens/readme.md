@@ -21,7 +21,7 @@ The funcitons/capabilities of the shared FWF sequence are intended to support DI
 _More advanced variants of the FWF may be shared/supported in the future!_  
 <br/>
 
-### Sequence naming convention
+### Sequence file naming convention
 The full name of a sequence contains several important bits of information about its version and compatability. The convention is as follows:
 
     [IDEAVERSION] [*_SERVICEPACK] [_SEQNAME] [_VERSION and VARIANT] [_COMPILEDATE (yymmdd)] [*_COMMENT]
