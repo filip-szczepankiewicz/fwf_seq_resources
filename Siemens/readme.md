@@ -4,7 +4,7 @@
 
 |          | VE11E | VE11C | VD11D | XA20A |
 |----------|-------|-------|-------|-------|
-| Version  |  1.19 |  1.19 |  1.13 |   WIP |
+| Version  |  1.19 |  1.22 |  1.13 |   WIP |
 
 _If any given IDEA version is not in the table, we have not yet developed the sequence for that platform._  
 <br/>
@@ -76,3 +76,8 @@ This is the standard FWF sequence compiled 17th March, 2019 for IDEA version VE1
   * Added support for asymmeric pause duration
   * Added metadata to DICOM header for absolute timing
   * Added support for HDR export of data
+* 1.22
+  * Reworked crusher behaviour (should work well at low-b and self-balance wfs)
+  * Added report of moments of motion in the logged "galore" table
+  * Reduced maximal amplitude of balance gradient to 2 mT/m
+  * Fixed bugg in timing calculation (reduced minimal TE)
