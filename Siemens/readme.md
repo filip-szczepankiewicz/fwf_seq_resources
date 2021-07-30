@@ -2,9 +2,9 @@
 
 ### Latest compiled FWF sequence versions per IDEA version
 
-|          | VE11E | VE11C | VD11D | XA20A |
-|----------|-------|-------|-------|-------|
-| Version  |  1.19 |  1.22 |  1.13 |   WIP |
+|          | VD11D | VD13D | VE11A | VE11B | VE11C | VE11E | XA20A |
+|----------|-------|-------|-------|-------|-------|-------|-------|
+| Version  |  1.13 |  1.07 |  1.07 |  1.05 |  1.22 |  1.19 |   WIP |
 
 _If any given IDEA version is not in the table, we have not yet developed the sequence for that platform._  
 <br/>
@@ -80,4 +80,4 @@ This is the standard FWF sequence compiled 17th March, 2019 for IDEA version VE1
   * Reworked crusher behaviour (should work well at low-b and self-balance wfs)
   * Added report of moments of motion in the logged "galore" table
   * Reduced maximal amplitude of balance gradient to 2 mT/m
-  * Fixed bugg in timing calculation (reduced minimal TE)
+  * Fixed bugg in timing calculation (reduced minimal TE at low b-max)
