@@ -78,6 +78,6 @@ This is the standard FWF sequence compiled 17th March, 2019 for IDEA version VE1
   * Added support for HDR export of data
 * 1.22
   * Reworked crusher behaviour (should work well at low-b and self-balance wfs)
-  * Added report of moments of motion in the logged "galore" table
+  * Added info on motion encoding in the logged "galore" table
   * Reduced maximal amplitude of balance gradient to 2 mT/m
   * Fixed bugg in timing calculation (reduced minimal TE at low b-max)
