@@ -92,7 +92,7 @@ Bulk motion and incoherent ballistic motion can be misinterpreted as diffusion. 
 [_F Szczepankiewicz, J Sjölund, E Dall’Armellina, S Plein, J E Schneider, I Teh, and C-F Westin. Motion-compensated gradient waveforms for tensor-valued diffusion encoding by constrained numerical optimization._ Magn Reson MEd, 2020](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)
 <br/><br/>
 
-#### Cross-term-compensated gradient waveforms \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_JMR_2021)\] \[[Citation]
+#### Cross-term-compensated gradient waveforms \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_JMR_2021)\] \[[Citation](https://doi.org/10.1016/j.jmr.2021.106991)\] 
 Imperfect magnetic fields contain background gradient that corrupt the desired diffusion encoding. This framework yields waveforms that are compensated for cross-terms with the background and we propose a method for estimating the background explicitly and remove its effects.
 [_Szczepankiewicz and Sjölund, Cross-term-compensated gradient waveform design for tensor-valued diffusion MRI._ Journal of Magnetic Resonance, 2021.](https://doi.org/10.1016/j.jmr.2021.106991)
 <br/><br/>
