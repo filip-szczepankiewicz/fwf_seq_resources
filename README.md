@@ -6,17 +6,20 @@ This repository contains materials and tools to support the implementation and u
 
 ### Getting the sequence
 **Siemens**  
-Please send request by email to Filip Szczepankiewicz at [filip.szczepankiewicz@med.lu.se](mailto:filip.szczepankiewicz@med.lu.se).  
+Please contact Filip Szczepankiewicz at [filip.szczepankiewicz@med.lu.se](mailto:filip.szczepankiewicz@med.lu.se).  
+Note that the sequence is shared through Lund University provided that:
+* There is a 'C2P' between Siemens Healthcare and the receiver, 
+* as well as a Material Transfer Agreement (MTA) between Lund University and the receiver.
 Check the [**list of compiled variants**](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
 **Philips**  
-Please contact Maarten Versluis (maarten.versluis@philips.com).
+Please contact Maarten Versluis at Philips Healthcare (maarten.versluis@philips.com).
 
 **GE**  
-Please contact Timo Schirmer (timo.schirmer@med.ge.com).
+Please contact Timo Schirmer at GE Healthcare (timo.schirmer@med.ge.com).
 
 **United Imaging**  
-Please contact Weiguo Zhang (weiguo.zhang@united-imaging.com).
+Please contact Weiguo Zhang at United Imaging (weiguo.zhang@united-imaging.com).
 
 **Bruker**  
 An implementation for TopSpin, by Daniel Topgaard at Lund University, is available [here](https://github.com/filip-szczepankiewicz/md-dmri/tree/master/acq/bruker).  
@@ -25,7 +28,7 @@ An implementation for ParaVision, by Mathew Budde at Medical College of Wisconsi
 
 ### Installing the sequence
 **Siemens**  
-General instructions for sequence installation and a manual for the "simple" sequence setup is found [here](/Siemens/Documents/).  
+Instructions for sequence installation and setup are found [here](/Siemens/Documents/).  
 
 **Philips, GE and United Imaging**  
 Instructions for installation and setup are provided by the vendor.
