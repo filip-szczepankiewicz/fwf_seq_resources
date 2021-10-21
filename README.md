@@ -9,7 +9,8 @@ This repository contains materials and tools to support the implementation and u
 Please contact Filip Szczepankiewicz at [filip.szczepankiewicz@med.lu.se](mailto:filip.szczepankiewicz@med.lu.se).  
 Note that the sequence is shared through Lund University provided that:
 * There is a 'C2P' between Siemens Healthcare and the receiver, 
-* as well as a Material Transfer Agreement (MTA) between Lund University and the receiver.
+* as well as a Material Transfer Agreement (MTA) between Lund University and the receiver.  
+
 Check the [**list of compiled variants**](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
 **Philips**  
