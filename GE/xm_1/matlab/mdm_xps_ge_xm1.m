@@ -5,7 +5,7 @@ function xps = mdm_xps_ge_xm1(sys, prot)
 % The xps is valid for the first (xm 1) GE implementation of free waveform
 % encoding. More info can be found at:
 % https://github.com/filip-szczepankiewicz/fwf_seq_resources
-% 
+%
 % If sys is only input we assume that it is the path to the .mat file that
 % contains the xps.
 % If both inputs are used, the file path is constructed and points to the
@@ -19,12 +19,19 @@ else
     
     switch sys
         case 'XRMB'
+            % Discovery MR450 1.5T
+            % Discovery MR750 3.0T
             prefix = 'XRMB';
             
         case 'XRMW'
+            % Optima MR450w 1.5T
+            % Discovery MR750w 3.0T
+            % SIGNA Artist
+            % SIGNA Architect
             prefix = 'XRMW';
             
         case 'HRMW'
+            % SIGNA Premier
             prefix = 'HRMW';
             
         otherwise
