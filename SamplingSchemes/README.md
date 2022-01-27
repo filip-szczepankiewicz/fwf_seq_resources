@@ -14,3 +14,4 @@ DIVIDE and QTI both require that at least three unique b-values are sampled, and
     * Short
     * Intermediate
     * Long
+* Brain MK3
