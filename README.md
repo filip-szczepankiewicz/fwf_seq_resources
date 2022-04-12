@@ -7,9 +7,9 @@ This repository contains materials and tools to support the implementation and u
 ### Getting the sequence
 **Siemens**  
 Please contact Filip Szczepankiewicz at [filip.szczepankiewicz@med.lu.se](mailto:filip.szczepankiewicz@med.lu.se).  
-Note that the sequence is shared through Lund University provided that:
-* There is a 'C2P' between Siemens Healthcare and the receiver, 
-* as well as a Material Transfer Agreement (MTA) between Lund University and the receiver.  
+Note that the sequence is shared through Lund University by establishing:
+* C2P between Siemens Healthcare and the receiver, 
+* MTA (material transfer agreement) between Lund University and the receiver.  
 
 Check the [**list of compiled variants**](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
 
@@ -39,30 +39,16 @@ Instructions for installation and setup are provided by the vendor.
 The design of the gradient waveforms (b-tensor shapes) and the signal sampling schemes (b-values, rotations etc.) must be considered when setting up he experiment. A comprehensive review of the factors that need be considered is found [here](https://www.sciencedirect.com/science/article/pii/S0165027020304301). In general, the design is informed by the hardware, the intended analysis technique and the organ/subject characteristics. Below, we have collected tools and examples related to the experimental design.  
 
 **Waveform design**  
-A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes [concomitant gradient compensation](https://doi.org/10.1002/mrm.27828), as well as [motion encoding compensation](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551).
+A framework for numerical gradient waveform optimization was published by [Sjölund et al.](https://doi.org/10.1016/j.jmr.2015.10.012) and is available on [GitHub](https://github.com/jsjol/NOW). This framework also includes [concomitant gradient compensation](https://doi.org/10.1002/mrm.27828), [motion encoding compensation](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551), as well as [cross-term compensation](https://doi.org/10.1016/j.jmr.2021.106991).
 
 **Example sampling schemes**  
-Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.  
-
-**Published waveforms and sampling schemes**  
-The following is a list of published sampling schemes:  
-
-* B-tensor encoding in brain in multiple MRI systems \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019)\] \[[Citation](https://doi.org/10.1371/journal.pone.0214238)\]
-* Open source data encoded with LTE, PTE and STE  \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019)\] \[[Citation](https://doi.org/10.1016/j.dib.2019.104208)\]
-* Diffusion-T2-relaxation correlation for compartment imaging \[[GitHub](https://github.com/belampinen/lampinen_mrm_2019)\] \[[Citation](https://doi.org/10.1002/mrm.28216)\]
-* Motion-compensated gradient waveforms by numerical optimization \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_MRM_2020)\] \[[Citation](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)\]
+Examples of sampling schemes appropriate for a given combination of organ and analysis technique are found in the [SamplingSchemes](/SamplingSchemes) folder.
 <br/><br/>
 
-### Image postprocessing
+### Data post-processing
 
-Postprocessing can be done using regular tools developed by the diffusion 
-MRI community. Special care is however needed for correction of distortions 
-due to eddy currents and subject movement to avoid artefacts (see 
-[Nilsson et al., 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141825)).
-This can be done with various tools
-
-* Multidimensional analysis framework (see [below](#multidimensional-analysis-framework-github-citation))
-* The [eddy tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy) from FSL (however, see [this note](/Misc/Postprocessing_Eddy.MD)).
+Postprocessing can be done using regular tools developed by the diffusion MRI community. Special care is however needed for correction of distortions due to eddy currents and subject movement to avoid artefacts (see [Nilsson et al., 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141825)).
+This can be done with e.g. the [mddMRI framework](#multidimensional-analysis-framework-github-citation) and [eddy tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy) from FSL although special conditions apply (see [this note](/Misc/Postprocessing_Eddy.MD)).
 <br/><br/>
 
 ### Model fitting and interpretation
