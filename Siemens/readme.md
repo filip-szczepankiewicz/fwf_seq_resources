@@ -2,9 +2,9 @@
 
 ### Latest compiled FWF sequence versions per IDEA version
 
-|          | VD11D | VD13D | VE11A | VE11B | VE11C | VE11E | XA20A |
-|----------|-------|-------|-------|-------|-------|-------|-------|
-| Version  |  1.13 |  1.07 |  1.07 |  1.05 |  1.22 |  1.19 |   WIP |
+|          | VD11D | VD13D | VE11A | VE11B | VE11C | VE11E |
+|----------|-------|-------|-------|-------|-------|-------|
+| Version  |  1.13 |  1.07 |  1.07 |  1.05 |  1.22 |  1.19 |
 
 _If any given IDEA version is not in the table, we have not yet developed the sequence for that platform._  
 <br/>
@@ -14,9 +14,10 @@ The funcitons/capabilities of the shared FWF sequence are intended to support DI
 * Tensor-valued diffusion encodign with linear, planar and spherical b-tensors
   * The linear b-tensor encoding includes two variants: trapezoids and a x-channel of the spherical variant
   * All waveforms are compensated for concomitant gradients
-  * All waveforms are hard-coded and there is no need for a custom waveform library
+  * All waveforms are compiled into the sequence and there is no need for a custom waveform library
 * B-values up to 2000 s/mm<sup>2</sup>
 * Simultaneous multislice (SMS) according to Siemens product implementation (v1.18 and later)
+* All conventional functions of ep2d_diff are maintained (GRAPPA, partial-Fourier, IR-pulses etc.)
 
 _More advanced variants of the FWF may be shared/supported in the future!_  
 <br/>
