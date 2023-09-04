@@ -63,55 +63,44 @@ We have published an [extensive framework in open source](https://github.com/mar
 ## External resources and references
 
 #### General principles for gradient waveform design \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_JNeuMeth_2021)\] \[[Citation](https://www.sciencedirect.com/science/article/pii/S0165027020304301)\]  
-Tensor-valued diffusion encoding often requires complex gradient wavefomrs. In the design of these, features such as physiology, hardware, and diffusion physics must be considered. This paper reviews the major factors that go into the waveform design, and the tradeoffs that are considered.  
 [_F. Szczepankiewicz, C-F. Westin, M. Nilsson. Gradient waveform design for tensor-valued encoding in diffusion MRI._ Journal of Neuroscience Methods 348, 2020.](https://www.sciencedirect.com/science/article/pii/S0165027020304301)
 <br/><br/>
   
 #### Numerical gradient waveform optimization \[[GitHub](https://github.com/jsjol/NOW)\] \[[Citation](https://doi.org/10.1016/j.jmr.2015.10.012)\]  
-Numerical Optimization of gradient waveforms (NOW) is an open source MATLAB framework for flexible generation of waveforms that enable q-space trajectory imaging (QTI) for tensor-valued diffusion encoding.  
 [_Sjölund, J., Szczepankiewicz, F., Nilsson, M., Topgaard, D., Westin, C. F., & Knutsson, H. (2015). Constrained optimization of gradient waveforms for generalized diffusion encoding. Journal of Magnetic Resonance, 261, 157-168._](https://doi.org/10.1016/j.jmr.2015.10.012)
 <br/><br/>
 
 #### Maxwell-compensated gradient waveforms and tools for concomitant gradient analysis \[[GitHub](https://github.com/markus-nilsson/md-dmri/tree/master/tools/cfa)\] \[[Citation](https://doi.org/10.1002/mrm.27828)\] \[[YouTube](https://www.youtube.com/watch?v=nqqzds7WS2U&feature=emb_logo)\]  
-Concomitant gradient effects can introduce gross bias in dMRI measurements. By limiting the Maxwell index in numerical optimization we can remove these errors. The concomitant field analysis (CFA) tool  facilitates analysis of Maxwell terms in arbitrary gradient waveforms.  
 [_Szczepankiewicz F, Westin, C‐F, Nilsson M. Maxwell‐compensated design of asymmetric gradient waveforms for tensor‐valued diffusion encoding. Magn Reson Med. 2019;00:1–14. https://doi.org/10.1002/mrm.27828_](https://doi.org/10.1002/mrm.27828)
 <br/><br/>
 
 #### Motion-compensated gradient waveforms \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_MRM_2020)\] \[[Citation](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)\] 
-Bulk motion and incoherent ballistic motion can be misinterpreted as diffusion. This framework extends numerical optimization of waveforms to include nulling of motion encoding to arbitrary order.  
 [_F Szczepankiewicz, J Sjölund, E Dall’Armellina, S Plein, J E Schneider, I Teh, and C-F Westin. Motion-compensated gradient waveforms for tensor-valued diffusion encoding by constrained numerical optimization._ Magn Reson MEd, 2020](https://onlinelibrary.wiley.com/doi/10.1002/mrm.28551)
 <br/><br/>
 
 #### Cross-term-compensated gradient waveforms \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_JMR_2021)\] \[[Citation](https://doi.org/10.1016/j.jmr.2021.106991)\] 
-Imperfect magnetic fields contain background gradient that corrupt the desired diffusion encoding. This framework yields waveforms that are compensated for cross-terms with the background and we propose a method for estimating the background explicitly and remove its effects.
 [_Szczepankiewicz and Sjölund, Cross-term-compensated gradient waveform design for tensor-valued diffusion MRI._ Journal of Magnetic Resonance, 2021.](https://doi.org/10.1016/j.jmr.2021.106991)
 <br/><br/>
 
 #### Multidimensional analysis framework \[[GitHub](https://github.com/markus-nilsson/md-dmri)\] \[[Citation](https://www.researchgate.net/profile/Filip_Szczepankiewicz/publication/325595277_An_open-source_framework_for_analysis_of_multidimensional_diffusion_MRI_data_implemented_in_MATLAB/links/5b179cedaca272d24cc43a0e/An-open-source-framework-for-analysis-of-multidimensional-diffusion-MRI-data-implemented-in-MATLAB.pdf)\]  
-Multidimensional diffusion MRI (MD-dMRI) framework is an open source MATLAB repository that facilitates analysis of data acquired with tensor-valued diffusion encoding and its correlation with relaxation weighting.  
 [_M. Nilsson, F. Szczepankiewicz, B. Lampinen, A. Ahlgren, J. de Almeida Martins, S. Lasic, C-F. Westin, D. Topgaard. An open-source framework for analysis of multidimensional diffusion MRI data implemented in MATLAB. Proc. Intl. Soc. Mag. Reson. Med. 26 (2018), Paris, France._](https://www.researchgate.net/profile/Filip_Szczepankiewicz/publication/325595277_An_open-source_framework_for_analysis_of_multidimensional_diffusion_MRI_data_implemented_in_MATLAB/links/5b179cedaca272d24cc43a0e/An-open-source-framework-for-analysis-of-multidimensional-diffusion-MRI-data-implemented-in-MATLAB.pdf)
 <br/><br/>
 
 #### Peripheral nerve stimulation prediction \[[GitHub](https://github.com/filip-szczepankiewicz/safe_pns_prediction)\] \[[Citation](https://doi.org/10.1002/mrm.27828)\]  
-This open source framework contains a MATLAB implementation of the [SAFE model by Hebrank and Gebhardt](https://cds.ismrm.org/ismrm-2000/PDF7/2007.PDF) which can be used predict PNS in Siemens MRI systems based on any given gradient waveform and hardware configuration.  
 [_Szczepankiewicz F, Westin, C-F, Nilsson M. Maxwell-compensated design of asymmetric gradient waveforms for tensor-valued diffusion encoding. Magn Reson Med. 2019;00:1–14. https://doi.org/10.1002/mrm.27828_](https://doi.org/10.1002/mrm.27828)
 <br/><br/>
 
 #### Free waveform (FWF) sequence header extraction \[[GitHub](https://github.com/filip-szczepankiewicz/fwf_header_tools)\] \[[Citation](https://doi.org/10.1016/j.dib.2019.104208)\] 
-The free waveform header tools are used to encode and decode information that is specific to the FWF sequence. The code provides an abstraction to ENCODE blocks of typed vectors in base64. This can be used to store floating point waveforms (and any other data type) in an efficient manner. The code also includes corresponding decoders with prototype implementation in PYTHON and MATLAB. A specific implementation exists for the FWF sequence (v1.12 and later) developed by FSz for Siemens MRI systems.  
 [_F Szczepankiewicz, S Hoge, C-F Westin. Linear, planar and spherical tensor-valued diffusion MRI data by free waveform encoding in healthy brain, water, oil and liquid crystals. Data in Brief (2019), DOI: https://doi.org/10.1016/j.dib.2019.104208_](https://doi.org/10.1016/j.dib.2019.104208)
 <br/><br/>
 
 #### Example protocols at multiple systems \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_PONE_2019)\] \[[Citation](https://doi.org/10.1371/journal.pone.0214238)\]  
-The repository contains detailed information about experimental setup, waveforms, sampling schemes and fit setting for DIVIDE or QTI at 1.5T, 3T and 7T scanners as part of the publication by Szczepankiewicz et al. 2019 in PoNE.  
 [_Szczepankiewicz F, Sjölund J, Ståhlberg F, Lätt J, Nilsson M. Tensor-valued diffusion encoding for diffusional variance decomposition (DIVIDE): Technical feasibility in clinical MRI systems. PLoS ONE. 2019;14(3):e0214238. https://doi.org/10.1371/journal.pone.0214238_](https://doi.org/10.1371/journal.pone.0214238)
 <br/><br/>
 
 #### Open source tensor-valued dMRI data \[[GitHub](https://github.com/filip-szczepankiewicz/Szczepankiewicz_DIB_2019)\] \[[Citation](https://doi.org/10.1016/j.dib.2019.104208)\]  
-This is an open source repository that supplies diffusion-MRI data with tensor-valued diffusion encoding. Data is available in a healthy human brain in vivo as well as water, oil and liquid crystal phantoms. The repository also contains detailed information and resources concerning the experiment and its design.  
 [_F. Szczepankiewicz, S. Hoge, C-F. Westin. Linear, planar and spherical tensor-valued diffusion MRI data by free waveform encoding in healthy brain, water, oil and liquid crystals. Data in Brief (2019), DOI: https://doi.org/10.1016/j.dib.2019.104208_](https://doi.org/10.1016/j.dib.2019.104208)
 <br/><br/>
 
-#### Seminar on tensor-valued diffusion encoding \[[YouTube](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s)\] \[[Citation](https://doi.org/10.1016/j.neuroimage.2016.07.038)\]  
-The talk "'Fat' B-tensors and Diffusion Tensor Distributions" was presented at a conference at Cardiff University entitled "A spin thro’ the history of restricted diffusion MR" on January 31st and February 1st 2017. The conference was hosted by the Cardiff University Brain Research Imaging Centre and was sponsored by Siemens Healthineers and the EPSRC.  
+#### Scientific presentation on tensor-valued diffusion encoding \[[YouTube](https://www.youtube.com/watch?v=o4LYijV90Tg&t=1241s)\] \[[Citation](https://doi.org/10.1016/j.neuroimage.2016.07.038)\]  
 [_F. Szczepankiewicz, D. van Westen, E. Englund, C-F. Westin, F. Ståhlberg, J. Lätt, P.C. Sundgren, M. Nilsson. The link between diffusion MRI and tumor heterogeneity: Mapping cell eccentricity and density by diffusional variance decomposition (DIVIDE). NeuroImage 142, p. 522-532, 2016. DOI: https://doi.org/10.1016/j.neuroimage.2016.07.038_](https://doi.org/10.1016/j.neuroimage.2016.07.038)
