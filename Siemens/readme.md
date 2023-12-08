@@ -4,7 +4,7 @@
 
 |          | VD11D | VD13D | VE11A | VE11B | VE11C | VE11E | XA30A |
 |----------|-------|-------|-------|-------|-------|-------|-------|
-| Version  |  1.13 |  1.07 |  1.07 |  1.05 |  1.26 |  1.19 |  1.26 |
+| Version  |  1.13 |  1.07 |  1.07 |  1.05 |  1.26 |  1.19 |  1.34 |
 
 _If any given IDEA version is not in the table, we have not yet developed the sequence for that platform._  
 <br/>
