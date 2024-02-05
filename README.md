@@ -16,9 +16,6 @@ Check the [**list of compiled variants**](/Siemens/readme.md) to see if the sequ
 **Philips**  
 Please contact Maarten Versluis at Philips Healthcare (maarten.versluis@philips.com).
 
-**GE**  
-Please contact Timo Schirmer at GE Healthcare (timo.schirmer@med.ge.com).
-
 **United Imaging**  
 Please contact Weiguo Zhang at United Imaging (weiguo.zhang@united-imaging.com).
 
