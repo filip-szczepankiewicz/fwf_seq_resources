@@ -23,11 +23,11 @@ _More advanced variants of the FWF may be shared/supported in the future!_
 <br/>
 
 ### Sequence file naming convention
-The full name of a sequence contains several important bits of information about its version and compatability. The convention is as follows:
+The full name of a sequence contains several important bits of information about its version and compatibility. The convention is as follows:
 
     [IDEAVERSION] [*_SERVICEPACK] [_SEQNAME] [_VERSION and VARIANT] [_COMPILEDATE (yymmdd)] [*_COMMENT]
 
-Astrisk denotes optional components.
+Asterisk denotes optional components.
 
 #### Example:
     VE11C_FWF_V1.13s_190317
