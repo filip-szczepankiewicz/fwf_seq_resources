@@ -6,12 +6,9 @@ This repository contains materials and tools to support the implementation and u
 
 ### Getting the sequence
 **Siemens**  
-Please contact Filip Szczepankiewicz at [filip.szczepankiewicz@med.lu.se](mailto:filip.szczepankiewicz@med.lu.se).  
-Note that the sequence is shared through Lund University by establishing:
-* C2P between Siemens Healthcare and the receiver, 
-* MTA (material transfer agreement) between Lund University and the receiver.  
-
-Check the [**list of compiled variants**](/Siemens/readme.md) to see if the sequence is available for your system. In special cases we may compile the sequence for other versions.  
+The sequence is shared via [Siemens Teamplay](https://webclient.eu.api.teamplay.siemens-healthineers.com/) by Filip Szczepankiewicz.  
+Check the [list of compiled variants](/Siemens/readme.md) to see if the sequence is available for your system.  
+For other questions, please contact me at [filip.szczepankiewicz@med.lu.se](mailto:filip.szczepankiewicz@med.lu.se).  
 
 **Philips**  
 Please contact Maarten Versluis at Philips Healthcare (maarten.versluis@philips.com).
