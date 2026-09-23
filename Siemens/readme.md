@@ -2,9 +2,9 @@
 
 ### Latest compiled FWF sequence versions per IDEA version
 
-|          | VD11D | VD13D | VE11A | VE11B | VE11C | VE11E | XA30A | XA60A |
-|----------|-------|-------|-------|-------|-------|-------|-------|-------|
-| Version  |  1.13 |  1.07 |  1.07 |  1.05 |  1.26 |  1.19 |  1.34 |  1.39 |
+|          | VD11D | VD13D | VE11A | VE11B | VE11C | VE11E | XA30A | XA60A | XA61A |
+|----------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Version  |  1.13 |  1.07 |  1.07 |  1.05 |  1.26 |  1.19 |  1.34 |  1.39 |  1.39 |
 
 _If any given IDEA version is not in the table, we have not yet developed the sequence for that platform._  
 <br/>
